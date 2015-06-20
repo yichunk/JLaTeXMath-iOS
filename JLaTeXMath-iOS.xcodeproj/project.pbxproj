@@ -215,6 +215,32 @@
 		85A596731B3514BB00EDA785 /* WebStartAlphabetRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AB1B3514BB00EDA785 /* WebStartAlphabetRegistration.m */; };
 		85A596741B3514BB00EDA785 /* XArrowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AD1B3514BB00EDA785 /* XArrowAtom.m */; };
 		85A596751B3514BB00EDA785 /* XLeftRightArrowFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AF1B3514BB00EDA785 /* XLeftRightArrowFactory.m */; };
+		85A5967E1B3516B700EDA785 /* Graphics2DI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5967D1B3516B700EDA785 /* Graphics2DI.m */; };
+		85A596811B35183700EDA785 /* FontI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596801B35183700EDA785 /* FontI.m */; };
+		85A596841B35187400EDA785 /* ColorI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596831B35187400EDA785 /* ColorI.m */; };
+		85A596871B35196300EDA785 /* BasicStrokeI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596861B35196300EDA785 /* BasicStrokeI.m */; };
+		85A5968A1B351E0B00EDA785 /* Point2DI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596891B351E0B00EDA785 /* Point2DI.m */; };
+		85A5968D1B351EF700EDA785 /* Line2DI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5968C1B351EF700EDA785 /* Line2DI.m */; };
+		85A596901B35200500EDA785 /* Rectangle2DI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5968F1B35200500EDA785 /* Rectangle2DI.m */; };
+		85A596931B3521EF00EDA785 /* GeomFactoryiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596921B3521EF00EDA785 /* GeomFactoryiOS.m */; };
+		85A596961B35227400EDA785 /* RoundRectangle2DI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596951B35227400EDA785 /* RoundRectangle2DI.m */; };
+		85A596991B35A25000EDA785 /* BaseObjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596981B35A25000EDA785 /* BaseObjectHelper.m */; };
+		85A5969C1B35A75100EDA785 /* FontLoaderI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5969B1B35A75100EDA785 /* FontLoaderI.m */; };
+		85A5969F1B35A8AA00EDA785 /* TextAttributeI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5969E1B35A8AA00EDA785 /* TextAttributeI.m */; };
+		85A596A21B35A8C600EDA785 /* TextAttributeProviderI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596A11B35A8C600EDA785 /* TextAttributeProviderI.m */; };
+		85A596A51B35A93300EDA785 /* TextLayoutI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596A41B35A93300EDA785 /* TextLayoutI.m */; };
+		85A596A81B35A95600EDA785 /* FontRenderContextI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596A71B35A95600EDA785 /* FontRenderContextI.m */; };
+		85A596AB1B35A98B00EDA785 /* FontFactoryiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596AA1B35A98B00EDA785 /* FontFactoryiOS.m */; };
+		85A596CD1B35ACF000EDA785 /* AttrI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596BE1B35ACF000EDA785 /* AttrI.m */; };
+		85A596CE1B35ACF000EDA785 /* DocumentI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596C01B35ACF000EDA785 /* DocumentI.m */; };
+		85A596CF1B35ACF000EDA785 /* ElementI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596C21B35ACF000EDA785 /* ElementI.m */; };
+		85A596D01B35ACF000EDA785 /* NamedNodeMapI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596C41B35ACF000EDA785 /* NamedNodeMapI.m */; };
+		85A596D11B35ACF000EDA785 /* NodeI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596C61B35ACF000EDA785 /* NodeI.m */; };
+		85A596D21B35ACF000EDA785 /* NodeListI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596C81B35ACF000EDA785 /* NodeListI.m */; };
+		85A596D31B35ACF000EDA785 /* ParserFactoryiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596CA1B35ACF000EDA785 /* ParserFactoryiOS.m */; };
+		85A596D41B35ACF000EDA785 /* ParserI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596CC1B35ACF000EDA785 /* ParserI.m */; };
+		85A596D71B35B3B500EDA785 /* TransformI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596D61B35B3B500EDA785 /* TransformI.m */; };
+		85A596DA1B35B84F00EDA785 /* ImageI.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A596D91B35B84F00EDA785 /* ImageI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -227,7 +253,7 @@
 				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.h",
 				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.m",
 			);
-			script = "~/j2objc-0.9.7/j2objc -d ${DERIVED_FILES_DIR} \\\n-sourcepath ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/ \\\n${INPUT_FILE_PATH};";
+			script = "~/j2objc-0.9.7/j2objc --prefixes ~/j2objc-0.9.7/prefixes.properties \\\n-d ${DERIVED_FILES_DIR} \\\n-sourcepath ${PROJECT_DIR}/JLaTeXMath-iOS/javasource/ \\\n${INPUT_FILE_PATH};";
 		};
 /* End PBXBuildRule section */
 
@@ -654,6 +680,58 @@
 		85A595AD1B3514BB00EDA785 /* XArrowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XArrowAtom.m; sourceTree = "<group>"; };
 		85A595AE1B3514BB00EDA785 /* XLeftRightArrowFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLeftRightArrowFactory.h; sourceTree = "<group>"; };
 		85A595AF1B3514BB00EDA785 /* XLeftRightArrowFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLeftRightArrowFactory.m; sourceTree = "<group>"; };
+		85A5967C1B3516B700EDA785 /* Graphics2DI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics2DI.h; sourceTree = "<group>"; };
+		85A5967D1B3516B700EDA785 /* Graphics2DI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics2DI.m; sourceTree = "<group>"; };
+		85A5967F1B35183700EDA785 /* FontI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontI.h; sourceTree = "<group>"; };
+		85A596801B35183700EDA785 /* FontI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontI.m; sourceTree = "<group>"; };
+		85A596821B35187400EDA785 /* ColorI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorI.h; sourceTree = "<group>"; };
+		85A596831B35187400EDA785 /* ColorI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorI.m; sourceTree = "<group>"; };
+		85A596851B35196300EDA785 /* BasicStrokeI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicStrokeI.h; sourceTree = "<group>"; };
+		85A596861B35196300EDA785 /* BasicStrokeI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStrokeI.m; sourceTree = "<group>"; };
+		85A596881B351E0B00EDA785 /* Point2DI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2DI.h; sourceTree = "<group>"; };
+		85A596891B351E0B00EDA785 /* Point2DI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point2DI.m; sourceTree = "<group>"; };
+		85A5968B1B351EF700EDA785 /* Line2DI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line2DI.h; sourceTree = "<group>"; };
+		85A5968C1B351EF700EDA785 /* Line2DI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line2DI.m; sourceTree = "<group>"; };
+		85A5968E1B35200500EDA785 /* Rectangle2DI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle2DI.h; sourceTree = "<group>"; };
+		85A5968F1B35200500EDA785 /* Rectangle2DI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle2DI.m; sourceTree = "<group>"; };
+		85A596911B3521EF00EDA785 /* GeomFactoryiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomFactoryiOS.h; sourceTree = "<group>"; };
+		85A596921B3521EF00EDA785 /* GeomFactoryiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeomFactoryiOS.m; sourceTree = "<group>"; };
+		85A596941B35227400EDA785 /* RoundRectangle2DI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRectangle2DI.h; sourceTree = "<group>"; };
+		85A596951B35227400EDA785 /* RoundRectangle2DI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectangle2DI.m; sourceTree = "<group>"; };
+		85A596971B35A25000EDA785 /* BaseObjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObjectHelper.h; sourceTree = "<group>"; };
+		85A596981B35A25000EDA785 /* BaseObjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObjectHelper.m; sourceTree = "<group>"; };
+		85A5969A1B35A75100EDA785 /* FontLoaderI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontLoaderI.h; sourceTree = "<group>"; };
+		85A5969B1B35A75100EDA785 /* FontLoaderI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontLoaderI.m; sourceTree = "<group>"; };
+		85A5969D1B35A8AA00EDA785 /* TextAttributeI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttributeI.h; sourceTree = "<group>"; };
+		85A5969E1B35A8AA00EDA785 /* TextAttributeI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttributeI.m; sourceTree = "<group>"; };
+		85A596A01B35A8C600EDA785 /* TextAttributeProviderI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttributeProviderI.h; sourceTree = "<group>"; };
+		85A596A11B35A8C600EDA785 /* TextAttributeProviderI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttributeProviderI.m; sourceTree = "<group>"; };
+		85A596A31B35A93300EDA785 /* TextLayoutI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayoutI.h; sourceTree = "<group>"; };
+		85A596A41B35A93300EDA785 /* TextLayoutI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayoutI.m; sourceTree = "<group>"; };
+		85A596A61B35A95600EDA785 /* FontRenderContextI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontRenderContextI.h; sourceTree = "<group>"; };
+		85A596A71B35A95600EDA785 /* FontRenderContextI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontRenderContextI.m; sourceTree = "<group>"; };
+		85A596A91B35A98B00EDA785 /* FontFactoryiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontFactoryiOS.h; sourceTree = "<group>"; };
+		85A596AA1B35A98B00EDA785 /* FontFactoryiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontFactoryiOS.m; sourceTree = "<group>"; };
+		85A596BD1B35ACF000EDA785 /* AttrI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttrI.h; sourceTree = "<group>"; };
+		85A596BE1B35ACF000EDA785 /* AttrI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttrI.m; sourceTree = "<group>"; };
+		85A596BF1B35ACF000EDA785 /* DocumentI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentI.h; sourceTree = "<group>"; };
+		85A596C01B35ACF000EDA785 /* DocumentI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentI.m; sourceTree = "<group>"; };
+		85A596C11B35ACF000EDA785 /* ElementI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementI.h; sourceTree = "<group>"; };
+		85A596C21B35ACF000EDA785 /* ElementI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementI.m; sourceTree = "<group>"; };
+		85A596C31B35ACF000EDA785 /* NamedNodeMapI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedNodeMapI.h; sourceTree = "<group>"; };
+		85A596C41B35ACF000EDA785 /* NamedNodeMapI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedNodeMapI.m; sourceTree = "<group>"; };
+		85A596C51B35ACF000EDA785 /* NodeI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeI.h; sourceTree = "<group>"; };
+		85A596C61B35ACF000EDA785 /* NodeI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeI.m; sourceTree = "<group>"; };
+		85A596C71B35ACF000EDA785 /* NodeListI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeListI.h; sourceTree = "<group>"; };
+		85A596C81B35ACF000EDA785 /* NodeListI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeListI.m; sourceTree = "<group>"; };
+		85A596C91B35ACF000EDA785 /* ParserFactoryiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserFactoryiOS.h; sourceTree = "<group>"; };
+		85A596CA1B35ACF000EDA785 /* ParserFactoryiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserFactoryiOS.m; sourceTree = "<group>"; };
+		85A596CB1B35ACF000EDA785 /* ParserI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserI.h; sourceTree = "<group>"; };
+		85A596CC1B35ACF000EDA785 /* ParserI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserI.m; sourceTree = "<group>"; };
+		85A596D51B35B3B500EDA785 /* TransformI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformI.h; sourceTree = "<group>"; };
+		85A596D61B35B3B500EDA785 /* TransformI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformI.m; sourceTree = "<group>"; };
+		85A596D81B35B84F00EDA785 /* ImageI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageI.h; sourceTree = "<group>"; };
+		85A596D91B35B84F00EDA785 /* ImageI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1283,8 +1361,100 @@
 		85A596761B35154E00EDA785 /* jlatexmath-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				85A596771B35165700EDA785 /* font */,
+				85A596781B35165700EDA785 /* geom */,
+				85A596791B35165700EDA785 /* graphics */,
+				85A5967A1B35165700EDA785 /* parser */,
+				85A5967B1B35165700EDA785 /* resources */,
+				85A596971B35A25000EDA785 /* BaseObjectHelper.h */,
+				85A596981B35A25000EDA785 /* BaseObjectHelper.m */,
 			);
 			path = "jlatexmath-iOS";
+			sourceTree = "<group>";
+		};
+		85A596771B35165700EDA785 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				85A5967F1B35183700EDA785 /* FontI.h */,
+				85A596801B35183700EDA785 /* FontI.m */,
+				85A5969A1B35A75100EDA785 /* FontLoaderI.h */,
+				85A5969B1B35A75100EDA785 /* FontLoaderI.m */,
+				85A5969D1B35A8AA00EDA785 /* TextAttributeI.h */,
+				85A5969E1B35A8AA00EDA785 /* TextAttributeI.m */,
+				85A596A01B35A8C600EDA785 /* TextAttributeProviderI.h */,
+				85A596A11B35A8C600EDA785 /* TextAttributeProviderI.m */,
+				85A596A31B35A93300EDA785 /* TextLayoutI.h */,
+				85A596A41B35A93300EDA785 /* TextLayoutI.m */,
+				85A596A61B35A95600EDA785 /* FontRenderContextI.h */,
+				85A596A71B35A95600EDA785 /* FontRenderContextI.m */,
+				85A596A91B35A98B00EDA785 /* FontFactoryiOS.h */,
+				85A596AA1B35A98B00EDA785 /* FontFactoryiOS.m */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		85A596781B35165700EDA785 /* geom */ = {
+			isa = PBXGroup;
+			children = (
+				85A596881B351E0B00EDA785 /* Point2DI.h */,
+				85A596891B351E0B00EDA785 /* Point2DI.m */,
+				85A5968B1B351EF700EDA785 /* Line2DI.h */,
+				85A5968C1B351EF700EDA785 /* Line2DI.m */,
+				85A5968E1B35200500EDA785 /* Rectangle2DI.h */,
+				85A5968F1B35200500EDA785 /* Rectangle2DI.m */,
+				85A596911B3521EF00EDA785 /* GeomFactoryiOS.h */,
+				85A596921B3521EF00EDA785 /* GeomFactoryiOS.m */,
+				85A596941B35227400EDA785 /* RoundRectangle2DI.h */,
+				85A596951B35227400EDA785 /* RoundRectangle2DI.m */,
+			);
+			path = geom;
+			sourceTree = "<group>";
+		};
+		85A596791B35165700EDA785 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				85A5967C1B3516B700EDA785 /* Graphics2DI.h */,
+				85A5967D1B3516B700EDA785 /* Graphics2DI.m */,
+				85A596821B35187400EDA785 /* ColorI.h */,
+				85A596831B35187400EDA785 /* ColorI.m */,
+				85A596851B35196300EDA785 /* BasicStrokeI.h */,
+				85A596861B35196300EDA785 /* BasicStrokeI.m */,
+				85A596D51B35B3B500EDA785 /* TransformI.h */,
+				85A596D61B35B3B500EDA785 /* TransformI.m */,
+				85A596D81B35B84F00EDA785 /* ImageI.h */,
+				85A596D91B35B84F00EDA785 /* ImageI.m */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		85A5967A1B35165700EDA785 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				85A596BD1B35ACF000EDA785 /* AttrI.h */,
+				85A596BE1B35ACF000EDA785 /* AttrI.m */,
+				85A596BF1B35ACF000EDA785 /* DocumentI.h */,
+				85A596C01B35ACF000EDA785 /* DocumentI.m */,
+				85A596C11B35ACF000EDA785 /* ElementI.h */,
+				85A596C21B35ACF000EDA785 /* ElementI.m */,
+				85A596C31B35ACF000EDA785 /* NamedNodeMapI.h */,
+				85A596C41B35ACF000EDA785 /* NamedNodeMapI.m */,
+				85A596C51B35ACF000EDA785 /* NodeI.h */,
+				85A596C61B35ACF000EDA785 /* NodeI.m */,
+				85A596C71B35ACF000EDA785 /* NodeListI.h */,
+				85A596C81B35ACF000EDA785 /* NodeListI.m */,
+				85A596C91B35ACF000EDA785 /* ParserFactoryiOS.h */,
+				85A596CA1B35ACF000EDA785 /* ParserFactoryiOS.m */,
+				85A596CB1B35ACF000EDA785 /* ParserI.h */,
+				85A596CC1B35ACF000EDA785 /* ParserI.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		85A5967B1B35165700EDA785 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1391,6 +1561,7 @@
 				85A595CA1B3514BB00EDA785 /* DelimiterFactory.m in Sources */,
 				85A5965C1B3514BB00EDA785 /* TeXEnvironment.m in Sources */,
 				85A5966D1B3514BB00EDA785 /* URLAlphabetRegistration.m in Sources */,
+				85A596931B3521EF00EDA785 /* GeomFactoryiOS.m in Sources */,
 				85A595B61B3514BB00EDA785 /* BitSet.m in Sources */,
 				85A5962A1B3514BB00EDA785 /* Icon.m in Sources */,
 				85A596361B3514BB00EDA785 /* NodeList.m in Sources */,
@@ -1402,9 +1573,11 @@
 				85A595EB1B3514BB00EDA785 /* FractionAtom.m in Sources */,
 				85A595E51B3514BB00EDA785 /* FBoxAtom.m in Sources */,
 				85A596171B3514BB00EDA785 /* Font.m in Sources */,
+				85A5968A1B351E0B00EDA785 /* Point2DI.m in Sources */,
 				85A596541B3514BB00EDA785 /* SpaceAtom.m in Sources */,
 				85A596031B3514BB00EDA785 /* MathAtom.m in Sources */,
 				85A596551B3514BB00EDA785 /* SsAtom.m in Sources */,
+				85A5969C1B35A75100EDA785 /* FontLoaderI.m in Sources */,
 				85A596151B3514BB00EDA785 /* PhantomAtom.m in Sources */,
 				85A596491B3514BB00EDA785 /* RotateBox.m in Sources */,
 				85A596441B3514BB00EDA785 /* ReflectBox.m in Sources */,
@@ -1413,6 +1586,7 @@
 				85A596721B3514BB00EDA785 /* VRowAtom.m in Sources */,
 				85A595C61B3514BB00EDA785 /* CyrillicRegistration.m in Sources */,
 				85A5961A1B3514BB00EDA785 /* FontRenderContext.m in Sources */,
+				85A596991B35A25000EDA785 /* BaseObjectHelper.m in Sources */,
 				85A595C31B3514BB00EDA785 /* ColorAtom.m in Sources */,
 				85A596311B3514BB00EDA785 /* Attr.m in Sources */,
 				85A595FC1B3514BB00EDA785 /* JavaFontRenderingAtom.m in Sources */,
@@ -1435,20 +1609,24 @@
 				85A5963B1B3514BB00EDA785 /* ResourceLoader.m in Sources */,
 				85A5962C1B3514BB00EDA785 /* Insets.m in Sources */,
 				85A595CE1B3514BB00EDA785 /* ExternalConverter.m in Sources */,
+				85A596811B35183700EDA785 /* FontI.m in Sources */,
 				85A595B31B3514BB00EDA785 /* Atom.m in Sources */,
 				85A591591B35101400EDA785 /* ViewController.m in Sources */,
 				85A596661B3514BB00EDA785 /* TStrokeAtom.m in Sources */,
 				85A595C51B3514BB00EDA785 /* CumulativeScriptsAtom.m in Sources */,
 				85A595B91B3514BB00EDA785 /* BreakFormula.m in Sources */,
+				85A596D41B35ACF000EDA785 /* ParserI.m in Sources */,
 				85A5960F1B3514BB00EDA785 /* OvalBox.m in Sources */,
 				85A595B21B3514BB00EDA785 /* ArrayOfAtoms.m in Sources */,
 				85A595F91B3514BB00EDA785 /* IddotsAtom.m in Sources */,
 				85A5965E1B3514BB00EDA785 /* TeXFormula.m in Sources */,
+				85A5969F1B35A8AA00EDA785 /* TextAttributeI.m in Sources */,
 				85A596471B3514BB00EDA785 /* RomanAtom.m in Sources */,
 				85A596021B3514BB00EDA785 /* MacroInfo.m in Sources */,
 				85A595BC1B3514BB00EDA785 /* CedillaAtom.m in Sources */,
 				85A596141B3514BB00EDA785 /* ParseOption.m in Sources */,
 				85A596081B3514BB00EDA785 /* MulticolumnAtom.m in Sources */,
+				85A596DA1B35B84F00EDA785 /* ImageI.m in Sources */,
 				85A5964E1B3514BB00EDA785 /* ScaleBox.m in Sources */,
 				85A5964C1B3514BB00EDA785 /* RuleAtom.m in Sources */,
 				85A596571B3514BB00EDA785 /* StrutBox.m in Sources */,
@@ -1458,6 +1636,7 @@
 				85A595F31B3514BB00EDA785 /* GraphicsBox.m in Sources */,
 				85A596321B3514BB00EDA785 /* Document.m in Sources */,
 				85A595D31B3514BB00EDA785 /* EmptyFormulaException.m in Sources */,
+				85A596AB1B35A98B00EDA785 /* FontFactoryiOS.m in Sources */,
 				85A596351B3514BB00EDA785 /* Node.m in Sources */,
 				85A595FA1B3514BB00EDA785 /* IJAtom.m in Sources */,
 				85A596281B3514BB00EDA785 /* GraphicsFactory.m in Sources */,
@@ -1473,6 +1652,7 @@
 				85A5962B1B3514BB00EDA785 /* Image.m in Sources */,
 				85A596161B3514BB00EDA785 /* FactoryProvider.m in Sources */,
 				85A595DE1B3514BB00EDA785 /* ParseException.m in Sources */,
+				85A596CF1B35ACF000EDA785 /* ElementI.m in Sources */,
 				85A595E21B3514BB00EDA785 /* TextStyleMappingNotFoundException.m in Sources */,
 				85A596561B3514BB00EDA785 /* StrikeThroughAtom.m in Sources */,
 				85A595EF1B3514BB00EDA785 /* Glue.m in Sources */,
@@ -1486,6 +1666,7 @@
 				85A596631B3514BB00EDA785 /* TeXSymbolParser.m in Sources */,
 				85A595C21B3514BB00EDA785 /* CharSymbol.m in Sources */,
 				85A595EC1B3514BB00EDA785 /* FramedBox.m in Sources */,
+				85A596A21B35A8C600EDA785 /* TextAttributeProviderI.m in Sources */,
 				85A596711B3514BB00EDA785 /* VlineAtom.m in Sources */,
 				85A5962E1B3514BB00EDA785 /* Stroke.m in Sources */,
 				85A596511B3514BB00EDA785 /* ShadowBox.m in Sources */,
@@ -1514,20 +1695,25 @@
 				85A595B01B3514BB00EDA785 /* AccentedAtom.m in Sources */,
 				85A596041B3514BB00EDA785 /* MatrixAtom.m in Sources */,
 				85A596301B3514BB00EDA785 /* Graphics.m in Sources */,
+				85A596841B35187400EDA785 /* ColorI.m in Sources */,
 				85A595C81B3514BB00EDA785 /* DefaultTeXFont.m in Sources */,
 				85A595BD1B3514BB00EDA785 /* Char.m in Sources */,
 				85A596461B3514BB00EDA785 /* ResizeAtom.m in Sources */,
 				85A595FF1B3514BB00EDA785 /* LaTeXAtom.m in Sources */,
 				85A595DD1B3514BB00EDA785 /* JMathTeXException.m in Sources */,
 				85A595B11B3514BB00EDA785 /* AlphabetRegistration.m in Sources */,
+				85A5968D1B351EF700EDA785 /* Line2DI.m in Sources */,
 				85A596201B3514BB00EDA785 /* Line2D.m in Sources */,
 				85A596291B3514BB00EDA785 /* HasForegroundColor.m in Sources */,
 				85A595F11B3514BB00EDA785 /* GlueSettingsParser.m in Sources */,
 				85A5962D1B3514BB00EDA785 /* RenderingHints.m in Sources */,
+				85A596D11B35ACF000EDA785 /* NodeI.m in Sources */,
 				85A5965F1B3514BB00EDA785 /* TeXFormulaParser.m in Sources */,
+				85A596901B35200500EDA785 /* Rectangle2DI.m in Sources */,
 				85A595D91B3514BB00EDA785 /* InvalidMatrixException.m in Sources */,
 				85A5965D1B3514BB00EDA785 /* TeXFont.m in Sources */,
 				85A596591B3514BB00EDA785 /* SymbolAtom.m in Sources */,
+				85A596A51B35A93300EDA785 /* TextLayoutI.m in Sources */,
 				85A5964B1B3514BB00EDA785 /* RowAtom.m in Sources */,
 				85A595E31B3514BB00EDA785 /* XMLResourceParseException.m in Sources */,
 				85A595CF1B3514BB00EDA785 /* ExternalConverterFactory.m in Sources */,
@@ -1541,13 +1727,16 @@
 				85A595BF1B3514BB00EDA785 /* CharAtom.m in Sources */,
 				85A596501B3514BB00EDA785 /* ShadowAtom.m in Sources */,
 				85A5960D1B3514BB00EDA785 /* OgonekAtom.m in Sources */,
+				85A596CE1B35ACF000EDA785 /* DocumentI.m in Sources */,
 				85A595D81B3514BB00EDA785 /* InvalidDelimiterTypeException.m in Sources */,
 				85A591561B35101400EDA785 /* AppDelegate.m in Sources */,
 				85A5966F1B3514BB00EDA785 /* VdotsAtom.m in Sources */,
+				85A5967E1B3516B700EDA785 /* Graphics2DI.m in Sources */,
 				85A595B81B3514BB00EDA785 /* Box.m in Sources */,
 				85A595E81B3514BB00EDA785 /* FencedAtom.m in Sources */,
 				85A595D51B3514BB00EDA785 /* FormulaNotFoundException.m in Sources */,
 				85A595C01B3514BB00EDA785 /* CharBox.m in Sources */,
+				85A596D01B35ACF000EDA785 /* NamedNodeMapI.m in Sources */,
 				85A595F21B3514BB00EDA785 /* GraphicsAtom.m in Sources */,
 				85A595D71B3514BB00EDA785 /* InvalidDelimiterException.m in Sources */,
 				85A596401B3514BB00EDA785 /* PredefMacroInfo.m in Sources */,
@@ -1559,10 +1748,13 @@
 				85A5963D1B3514BB00EDA785 /* PredefinedCommands.m in Sources */,
 				85A591531B35101400EDA785 /* main.m in Sources */,
 				85A5961E1B3514BB00EDA785 /* FontAdapter.m in Sources */,
+				85A596961B35227400EDA785 /* RoundRectangle2DI.m in Sources */,
+				85A596D71B35B3B500EDA785 /* TransformI.m in Sources */,
 				85A596741B3514BB00EDA785 /* XArrowAtom.m in Sources */,
 				85A596421B3514BB00EDA785 /* RaiseAtom.m in Sources */,
 				85A596101B3514BB00EDA785 /* OverBar.m in Sources */,
 				85A596071B3514BB00EDA785 /* MonoScaleAtom.m in Sources */,
+				85A596A81B35A95600EDA785 /* FontRenderContextI.m in Sources */,
 				85A595F71B3514BB00EDA785 /* HorizontalBox.m in Sources */,
 				85A596341B3514BB00EDA785 /* NamedNodeMap.m in Sources */,
 				85A596621B3514BB00EDA785 /* TeXParser.m in Sources */,
@@ -1571,13 +1763,16 @@
 				85A5963E1B3514BB00EDA785 /* PredefinedTeXFormulaParser.m in Sources */,
 				85A596181B3514BB00EDA785 /* FontFactory.m in Sources */,
 				85A595E41B3514BB00EDA785 /* Extension.m in Sources */,
+				85A596CD1B35ACF000EDA785 /* AttrI.m in Sources */,
 				85A596261B3514BB00EDA785 /* Color.m in Sources */,
 				85A5963A1B3514BB00EDA785 /* Resource.m in Sources */,
 				85A595C71B3514BB00EDA785 /* DdotsAtom.m in Sources */,
+				85A596871B35196300EDA785 /* BasicStrokeI.m in Sources */,
 				85A596751B3514BB00EDA785 /* XLeftRightArrowFactory.m in Sources */,
 				85A595B41B3514BB00EDA785 /* BigDelimiterAtom.m in Sources */,
 				85A595BA1B3514BB00EDA785 /* BreakMarkAtom.m in Sources */,
 				85A596391B3514BB00EDA785 /* ParserAdapter.m in Sources */,
+				85A596D21B35ACF000EDA785 /* NodeListI.m in Sources */,
 				85A596221B3514BB00EDA785 /* Rectangle2D.m in Sources */,
 				85A5964D1B3514BB00EDA785 /* ScaleAtom.m in Sources */,
 				85A596451B3514BB00EDA785 /* RegexUtil.m in Sources */,
@@ -1587,6 +1782,7 @@
 				85A5960A1B3514BB00EDA785 /* NewCommandMacro.m in Sources */,
 				85A596131B3514BB00EDA785 /* OverUnderDelimiter.m in Sources */,
 				85A595BE1B3514BB00EDA785 /* Character.m in Sources */,
+				85A596D31B35ACF000EDA785 /* ParserFactoryiOS.m in Sources */,
 				85A595F41B3514BB00EDA785 /* GreekRegistration.m in Sources */,
 				85A596671B3514BB00EDA785 /* TtAtom.m in Sources */,
 			);
