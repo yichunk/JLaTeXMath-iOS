@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A591531B35101400EDA785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A591521B35101400EDA785 /* main.m */; };
+		85A591561B35101400EDA785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A591551B35101400EDA785 /* AppDelegate.m */; };
+		85A591591B35101400EDA785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A591581B35101400EDA785 /* ViewController.m */; };
+		85A5915C1B35101400EDA785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A5915A1B35101400EDA785 /* Main.storyboard */; };
+		85A5915E1B35101400EDA785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A5915D1B35101400EDA785 /* Images.xcassets */; };
+		85A591611B35101400EDA785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A5915F1B35101400EDA785 /* LaunchScreen.xib */; };
+		85A5916D1B35101400EDA785 /* JLaTeXMath_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5916C1B35101400EDA785 /* JLaTeXMath_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85A591671B35101400EDA785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A591451B35101300EDA785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A5914C1B35101300EDA785;
+			remoteInfo = "JLaTeXMath-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85A5914D1B35101300EDA785 /* JLaTeXMath-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLaTeXMath-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A591511B35101300EDA785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A591521B35101400EDA785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85A591541B35101400EDA785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85A591551B35101400EDA785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85A591571B35101400EDA785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85A591581B35101400EDA785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85A5915B1B35101400EDA785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A5915D1B35101400EDA785 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85A591601B35101400EDA785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85A591661B35101400EDA785 /* JLaTeXMath-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLaTeXMath-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A5916B1B35101400EDA785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A5916C1B35101400EDA785 /* JLaTeXMath_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLaTeXMath_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A5914A1B35101300EDA785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A591631B35101400EDA785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A591441B35101300EDA785 = {
+			isa = PBXGroup;
+			children = (
+				85A5914F1B35101300EDA785 /* JLaTeXMath-iOS */,
+				85A591691B35101400EDA785 /* JLaTeXMath-iOSTests */,
+				85A5914E1B35101300EDA785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A5914E1B35101300EDA785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A5914D1B35101300EDA785 /* JLaTeXMath-iOS.app */,
+				85A591661B35101400EDA785 /* JLaTeXMath-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A5914F1B35101300EDA785 /* JLaTeXMath-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				85A591541B35101400EDA785 /* AppDelegate.h */,
+				85A591551B35101400EDA785 /* AppDelegate.m */,
+				85A591571B35101400EDA785 /* ViewController.h */,
+				85A591581B35101400EDA785 /* ViewController.m */,
+				85A5915A1B35101400EDA785 /* Main.storyboard */,
+				85A5915D1B35101400EDA785 /* Images.xcassets */,
+				85A5915F1B35101400EDA785 /* LaunchScreen.xib */,
+				85A591501B35101300EDA785 /* Supporting Files */,
+			);
+			path = "JLaTeXMath-iOS";
+			sourceTree = "<group>";
+		};
+		85A591501B35101300EDA785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A591511B35101300EDA785 /* Info.plist */,
+				85A591521B35101400EDA785 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A591691B35101400EDA785 /* JLaTeXMath-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A5916C1B35101400EDA785 /* JLaTeXMath_iOSTests.m */,
+				85A5916A1B35101400EDA785 /* Supporting Files */,
+			);
+			path = "JLaTeXMath-iOSTests";
+			sourceTree = "<group>";
+		};
+		85A5916A1B35101400EDA785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A5916B1B35101400EDA785 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A5914C1B35101300EDA785 /* JLaTeXMath-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A591701B35101400EDA785 /* Build configuration list for PBXNativeTarget "JLaTeXMath-iOS" */;
+			buildPhases = (
+				85A591491B35101300EDA785 /* Sources */,
+				85A5914A1B35101300EDA785 /* Frameworks */,
+				85A5914B1B35101300EDA785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLaTeXMath-iOS";
+			productName = "JLaTeXMath-iOS";
+			productReference = 85A5914D1B35101300EDA785 /* JLaTeXMath-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85A591651B35101400EDA785 /* JLaTeXMath-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A591731B35101400EDA785 /* Build configuration list for PBXNativeTarget "JLaTeXMath-iOSTests" */;
+			buildPhases = (
+				85A591621B35101400EDA785 /* Sources */,
+				85A591631B35101400EDA785 /* Frameworks */,
+				85A591641B35101400EDA785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A591681B35101400EDA785 /* PBXTargetDependency */,
+			);
+			name = "JLaTeXMath-iOSTests";
+			productName = "JLaTeXMath-iOSTests";
+			productReference = 85A591661B35101400EDA785 /* JLaTeXMath-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A591451B35101300EDA785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = JackyKuo;
+				TargetAttributes = {
+					85A5914C1B35101300EDA785 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					85A591651B35101400EDA785 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 85A5914C1B35101300EDA785;
+					};
+				};
+			};
+			buildConfigurationList = 85A591481B35101300EDA785 /* Build configuration list for PBXProject "JLaTeXMath-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A591441B35101300EDA785;
+			productRefGroup = 85A5914E1B35101300EDA785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A5914C1B35101300EDA785 /* JLaTeXMath-iOS */,
+				85A591651B35101400EDA785 /* JLaTeXMath-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A5914B1B35101300EDA785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A5915C1B35101400EDA785 /* Main.storyboard in Resources */,
+				85A591611B35101400EDA785 /* LaunchScreen.xib in Resources */,
+				85A5915E1B35101400EDA785 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A591641B35101400EDA785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A591491B35101300EDA785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A591591B35101400EDA785 /* ViewController.m in Sources */,
+				85A591561B35101400EDA785 /* AppDelegate.m in Sources */,
+				85A591531B35101400EDA785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A591621B35101400EDA785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A5916D1B35101400EDA785 /* JLaTeXMath_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85A591681B35101400EDA785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A5914C1B35101300EDA785 /* JLaTeXMath-iOS */;
+			targetProxy = 85A591671B35101400EDA785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85A5915A1B35101400EDA785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A5915B1B35101400EDA785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A5915F1B35101400EDA785 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A591601B35101400EDA785 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A5916E1B35101400EDA785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		85A5916F1B35101400EDA785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A591711B35101400EDA785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JLaTeXMath-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85A591721B35101400EDA785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JLaTeXMath-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85A591741B35101400EDA785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLaTeXMath-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLaTeXMath-iOS.app/JLaTeXMath-iOS";
+			};
+			name = Debug;
+		};
+		85A591751B35101400EDA785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLaTeXMath-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLaTeXMath-iOS.app/JLaTeXMath-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A591481B35101300EDA785 /* Build configuration list for PBXProject "JLaTeXMath-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A5916E1B35101400EDA785 /* Debug */,
+				85A5916F1B35101400EDA785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A591701B35101400EDA785 /* Build configuration list for PBXNativeTarget "JLaTeXMath-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A591711B35101400EDA785 /* Debug */,
+				85A591721B35101400EDA785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85A591731B35101400EDA785 /* Build configuration list for PBXNativeTarget "JLaTeXMath-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A591741B35101400EDA785 /* Debug */,
+				85A591751B35101400EDA785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A591451B35101300EDA785 /* Project object */;
+}
