@@ -14,7 +14,222 @@
 		85A5915E1B35101400EDA785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A5915D1B35101400EDA785 /* Images.xcassets */; };
 		85A591611B35101400EDA785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A5915F1B35101400EDA785 /* LaunchScreen.xib */; };
 		85A5916D1B35101400EDA785 /* JLaTeXMath_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5916C1B35101400EDA785 /* JLaTeXMath_iOSTests.m */; };
+		85A591781B3510E200EDA785 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A591771B3510E200EDA785 /* Security.framework */; };
+		85A5917A1B3510E900EDA785 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A591791B3510E900EDA785 /* libz.1.2.5.dylib */; };
+		85A5917C1B3510F300EDA785 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5917B1B3510F300EDA785 /* libicucore.dylib */; };
+		85A595B01B3514BB00EDA785 /* AccentedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594181B3514BA00EDA785 /* AccentedAtom.m */; };
+		85A595B11B3514BB00EDA785 /* AlphabetRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5941A1B3514BA00EDA785 /* AlphabetRegistration.m */; };
+		85A595B21B3514BB00EDA785 /* ArrayOfAtoms.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5941C1B3514BA00EDA785 /* ArrayOfAtoms.m */; };
+		85A595B31B3514BB00EDA785 /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5941E1B3514BA00EDA785 /* Atom.m */; };
+		85A595B41B3514BB00EDA785 /* BigDelimiterAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594201B3514BA00EDA785 /* BigDelimiterAtom.m */; };
+		85A595B51B3514BB00EDA785 /* BigOperatorAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594221B3514BA00EDA785 /* BigOperatorAtom.m */; };
+		85A595B61B3514BB00EDA785 /* BitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594241B3514BA00EDA785 /* BitSet.m */; };
+		85A595B71B3514BB00EDA785 /* BoldAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594261B3514BA00EDA785 /* BoldAtom.m */; };
+		85A595B81B3514BB00EDA785 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594281B3514BA00EDA785 /* Box.m */; };
+		85A595B91B3514BB00EDA785 /* BreakFormula.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5942A1B3514BA00EDA785 /* BreakFormula.m */; };
+		85A595BA1B3514BB00EDA785 /* BreakMarkAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5942C1B3514BA00EDA785 /* BreakMarkAtom.m */; };
+		85A595BB1B3514BB00EDA785 /* JLaTeXMathCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5942F1B3514BA00EDA785 /* JLaTeXMathCache.m */; };
+		85A595BC1B3514BB00EDA785 /* CedillaAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594311B3514BA00EDA785 /* CedillaAtom.m */; };
+		85A595BD1B3514BB00EDA785 /* Char.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594331B3514BA00EDA785 /* Char.m */; };
+		85A595BE1B3514BB00EDA785 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594361B3514BA00EDA785 /* Character.m */; };
+		85A595BF1B3514BB00EDA785 /* CharAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594381B3514BA00EDA785 /* CharAtom.m */; };
+		85A595C01B3514BB00EDA785 /* CharBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5943A1B3514BA00EDA785 /* CharBox.m */; };
+		85A595C11B3514BB00EDA785 /* CharFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5943C1B3514BA00EDA785 /* CharFont.m */; };
+		85A595C21B3514BB00EDA785 /* CharSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5943E1B3514BA00EDA785 /* CharSymbol.m */; };
+		85A595C31B3514BB00EDA785 /* ColorAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594401B3514BA00EDA785 /* ColorAtom.m */; };
+		85A595C41B3514BB00EDA785 /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594421B3514BA00EDA785 /* ColorUtil.m */; };
+		85A595C51B3514BB00EDA785 /* CumulativeScriptsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594441B3514BA00EDA785 /* CumulativeScriptsAtom.m */; };
+		85A595C61B3514BB00EDA785 /* CyrillicRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594471B3514BA00EDA785 /* CyrillicRegistration.m */; };
+		85A595C71B3514BB00EDA785 /* DdotsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594491B3514BA00EDA785 /* DdotsAtom.m */; };
+		85A595C81B3514BB00EDA785 /* DefaultTeXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5944B1B3514BA00EDA785 /* DefaultTeXFont.m */; };
+		85A595C91B3514BB00EDA785 /* DefaultTeXFontParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5944D1B3514BA00EDA785 /* DefaultTeXFontParser.m */; };
+		85A595CA1B3514BB00EDA785 /* DelimiterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5944F1B3514BA00EDA785 /* DelimiterFactory.m */; };
+		85A595CB1B3514BB00EDA785 /* DoubleFramedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594511B3514BA00EDA785 /* DoubleFramedAtom.m */; };
+		85A595CC1B3514BB00EDA785 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594531B3514BA00EDA785 /* Dummy.m */; };
+		85A595CD1B3514BB00EDA785 /* DynamicAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594561B3514BA00EDA785 /* DynamicAtom.m */; };
+		85A595CE1B3514BB00EDA785 /* ExternalConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594581B3514BA00EDA785 /* ExternalConverter.m */; };
+		85A595CF1B3514BB00EDA785 /* ExternalConverterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5945A1B3514BA00EDA785 /* ExternalConverterFactory.m */; };
+		85A595D01B3514BB00EDA785 /* EmptyAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5945C1B3514BA00EDA785 /* EmptyAtom.m */; };
+		85A595D11B3514BB00EDA785 /* AlphabetRegistrationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5945F1B3514BA00EDA785 /* AlphabetRegistrationException.m */; };
+		85A595D21B3514BB00EDA785 /* DelimiterMappingNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594611B3514BA00EDA785 /* DelimiterMappingNotFoundException.m */; };
+		85A595D31B3514BB00EDA785 /* EmptyFormulaException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594631B3514BA00EDA785 /* EmptyFormulaException.m */; };
+		85A595D41B3514BB00EDA785 /* FontAlreadyLoadedException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594651B3514BA00EDA785 /* FontAlreadyLoadedException.m */; };
+		85A595D51B3514BB00EDA785 /* FormulaNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594671B3514BA00EDA785 /* FormulaNotFoundException.m */; };
+		85A595D61B3514BB00EDA785 /* InvalidAtomTypeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594691B3514BA00EDA785 /* InvalidAtomTypeException.m */; };
+		85A595D71B3514BB00EDA785 /* InvalidDelimiterException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5946B1B3514BA00EDA785 /* InvalidDelimiterException.m */; };
+		85A595D81B3514BB00EDA785 /* InvalidDelimiterTypeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5946D1B3514BA00EDA785 /* InvalidDelimiterTypeException.m */; };
+		85A595D91B3514BB00EDA785 /* InvalidMatrixException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5946F1B3514BA00EDA785 /* InvalidMatrixException.m */; };
+		85A595DA1B3514BB00EDA785 /* InvalidSymbolTypeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594711B3514BA00EDA785 /* InvalidSymbolTypeException.m */; };
+		85A595DB1B3514BB00EDA785 /* InvalidTeXFormulaException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594731B3514BA00EDA785 /* InvalidTeXFormulaException.m */; };
+		85A595DC1B3514BB00EDA785 /* InvalidUnitException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594751B3514BA00EDA785 /* InvalidUnitException.m */; };
+		85A595DD1B3514BB00EDA785 /* JMathTeXException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594771B3514BA00EDA785 /* JMathTeXException.m */; };
+		85A595DE1B3514BB00EDA785 /* ParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594791B3514BA00EDA785 /* ParseException.m */; };
+		85A595DF1B3514BB00EDA785 /* ResourceParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5947B1B3514BA00EDA785 /* ResourceParseException.m */; };
+		85A595E01B3514BB00EDA785 /* SymbolMappingNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5947D1B3514BA00EDA785 /* SymbolMappingNotFoundException.m */; };
+		85A595E11B3514BB00EDA785 /* SymbolNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5947F1B3514BA00EDA785 /* SymbolNotFoundException.m */; };
+		85A595E21B3514BB00EDA785 /* TextStyleMappingNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594811B3514BA00EDA785 /* TextStyleMappingNotFoundException.m */; };
+		85A595E31B3514BB00EDA785 /* XMLResourceParseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594831B3514BA00EDA785 /* XMLResourceParseException.m */; };
+		85A595E41B3514BB00EDA785 /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594851B3514BA00EDA785 /* Extension.m */; };
+		85A595E51B3514BB00EDA785 /* FBoxAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594871B3514BA00EDA785 /* FBoxAtom.m */; };
+		85A595E61B3514BB00EDA785 /* FcscoreAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594891B3514BA00EDA785 /* FcscoreAtom.m */; };
+		85A595E71B3514BB00EDA785 /* FcscoreBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5948B1B3514BA00EDA785 /* FcscoreBox.m */; };
+		85A595E81B3514BB00EDA785 /* FencedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5948D1B3514BA00EDA785 /* FencedAtom.m */; };
+		85A595E91B3514BB00EDA785 /* FixedCharAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5948F1B3514BA00EDA785 /* FixedCharAtom.m */; };
+		85A595EA1B3514BB00EDA785 /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594911B3514BA00EDA785 /* FontInfo.m */; };
+		85A595EB1B3514BB00EDA785 /* FractionAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594931B3514BA00EDA785 /* FractionAtom.m */; };
+		85A595EC1B3514BB00EDA785 /* FramedBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594951B3514BA00EDA785 /* FramedBox.m */; };
+		85A595ED1B3514BB00EDA785 /* GeoGebraLogoAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594971B3514BA00EDA785 /* GeoGebraLogoAtom.m */; };
+		85A595EE1B3514BB00EDA785 /* GeoGebraLogoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594991B3514BA00EDA785 /* GeoGebraLogoBox.m */; };
+		85A595EF1B3514BB00EDA785 /* Glue.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5949B1B3514BA00EDA785 /* Glue.m */; };
+		85A595F01B3514BB00EDA785 /* GlueBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5949D1B3514BA00EDA785 /* GlueBox.m */; };
+		85A595F11B3514BB00EDA785 /* GlueSettingsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5949F1B3514BA00EDA785 /* GlueSettingsParser.m */; };
+		85A595F21B3514BB00EDA785 /* GraphicsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594A11B3514BA00EDA785 /* GraphicsAtom.m */; };
+		85A595F31B3514BB00EDA785 /* GraphicsBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594A31B3514BA00EDA785 /* GraphicsBox.m */; };
+		85A595F41B3514BB00EDA785 /* GreekRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594A61B3514BA00EDA785 /* GreekRegistration.m */; };
+		85A595F51B3514BB00EDA785 /* HdotsforAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594A81B3514BA00EDA785 /* HdotsforAtom.m */; };
+		85A595F61B3514BB00EDA785 /* HlineAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594AA1B3514BA00EDA785 /* HlineAtom.m */; };
+		85A595F71B3514BB00EDA785 /* HorizontalBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594AC1B3514BA00EDA785 /* HorizontalBox.m */; };
+		85A595F81B3514BB00EDA785 /* HorizontalRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594AE1B3514BA00EDA785 /* HorizontalRule.m */; };
+		85A595F91B3514BB00EDA785 /* IddotsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594B01B3514BA00EDA785 /* IddotsAtom.m */; };
+		85A595FA1B3514BB00EDA785 /* IJAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594B21B3514BA00EDA785 /* IJAtom.m */; };
+		85A595FB1B3514BB00EDA785 /* ItAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594B41B3514BA00EDA785 /* ItAtom.m */; };
+		85A595FC1B3514BB00EDA785 /* JavaFontRenderingAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594B61B3514BA00EDA785 /* JavaFontRenderingAtom.m */; };
+		85A595FD1B3514BB00EDA785 /* JavaFontRenderingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594B81B3514BA00EDA785 /* JavaFontRenderingBox.m */; };
+		85A595FE1B3514BB00EDA785 /* LapedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594BA1B3514BA00EDA785 /* LapedAtom.m */; };
+		85A595FF1B3514BB00EDA785 /* LaTeXAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594BC1B3514BA00EDA785 /* LaTeXAtom.m */; };
+		85A596001B3514BB00EDA785 /* LCaronAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594BE1B3514BA00EDA785 /* LCaronAtom.m */; };
+		85A596011B3514BB00EDA785 /* Macro.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594C01B3514BA00EDA785 /* Macro.m */; };
+		85A596021B3514BB00EDA785 /* MacroInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594C21B3514BA00EDA785 /* MacroInfo.m */; };
+		85A596031B3514BB00EDA785 /* MathAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594C41B3514BA00EDA785 /* MathAtom.m */; };
+		85A596041B3514BB00EDA785 /* MatrixAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594C61B3514BA00EDA785 /* MatrixAtom.m */; };
+		85A596051B3514BB00EDA785 /* Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594C81B3514BA00EDA785 /* Metrics.m */; };
+		85A596061B3514BB00EDA785 /* MiddleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594CA1B3514BA00EDA785 /* MiddleAtom.m */; };
+		85A596071B3514BB00EDA785 /* MonoScaleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594CC1B3514BA00EDA785 /* MonoScaleAtom.m */; };
+		85A596081B3514BB00EDA785 /* MulticolumnAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594CE1B3514BA00EDA785 /* MulticolumnAtom.m */; };
+		85A596091B3514BB00EDA785 /* MultlineAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594D01B3514BA00EDA785 /* MultlineAtom.m */; };
+		85A5960A1B3514BB00EDA785 /* NewCommandMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594D21B3514BA00EDA785 /* NewCommandMacro.m */; };
+		85A5960B1B3514BB00EDA785 /* NewEnvironmentMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594D41B3514BA00EDA785 /* NewEnvironmentMacro.m */; };
+		85A5960C1B3514BB00EDA785 /* NthRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594D61B3514BA00EDA785 /* NthRoot.m */; };
+		85A5960D1B3514BB00EDA785 /* OgonekAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594D81B3514BA00EDA785 /* OgonekAtom.m */; };
+		85A5960E1B3514BB00EDA785 /* OvalAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594DA1B3514BA00EDA785 /* OvalAtom.m */; };
+		85A5960F1B3514BB00EDA785 /* OvalBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594DC1B3514BA00EDA785 /* OvalBox.m */; };
+		85A596101B3514BB00EDA785 /* OverBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594DE1B3514BA00EDA785 /* OverBar.m */; };
+		85A596111B3514BB00EDA785 /* OverlinedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594E01B3514BA00EDA785 /* OverlinedAtom.m */; };
+		85A596121B3514BB00EDA785 /* OverUnderBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594E21B3514BA00EDA785 /* OverUnderBox.m */; };
+		85A596131B3514BB00EDA785 /* OverUnderDelimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594E41B3514BA00EDA785 /* OverUnderDelimiter.m */; };
+		85A596141B3514BB00EDA785 /* ParseOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594E61B3514BA00EDA785 /* ParseOption.m */; };
+		85A596151B3514BB00EDA785 /* PhantomAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594E81B3514BA00EDA785 /* PhantomAtom.m */; };
+		85A596161B3514BB00EDA785 /* FactoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594EB1B3514BB00EDA785 /* FactoryProvider.m */; };
+		85A596171B3514BB00EDA785 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594EE1B3514BB00EDA785 /* Font.m */; };
+		85A596181B3514BB00EDA785 /* FontFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594F01B3514BB00EDA785 /* FontFactory.m */; };
+		85A596191B3514BB00EDA785 /* FontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594F21B3514BB00EDA785 /* FontLoader.m */; };
+		85A5961A1B3514BB00EDA785 /* FontRenderContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594F41B3514BB00EDA785 /* FontRenderContext.m */; };
+		85A5961B1B3514BB00EDA785 /* TextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594F61B3514BB00EDA785 /* TextAttribute.m */; };
+		85A5961C1B3514BB00EDA785 /* TextAttributeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594F81B3514BB00EDA785 /* TextAttributeProvider.m */; };
+		85A5961D1B3514BB00EDA785 /* TextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594FA1B3514BB00EDA785 /* TextLayout.m */; };
+		85A5961E1B3514BB00EDA785 /* FontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594FC1B3514BB00EDA785 /* FontAdapter.m */; };
+		85A5961F1B3514BB00EDA785 /* GeomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A594FF1B3514BB00EDA785 /* GeomFactory.m */; };
+		85A596201B3514BB00EDA785 /* Line2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595011B3514BB00EDA785 /* Line2D.m */; };
+		85A596211B3514BB00EDA785 /* Point2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595031B3514BB00EDA785 /* Point2D.m */; };
+		85A596221B3514BB00EDA785 /* Rectangle2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595051B3514BB00EDA785 /* Rectangle2D.m */; };
+		85A596231B3514BB00EDA785 /* RoundRectangle2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595071B3514BB00EDA785 /* RoundRectangle2D.m */; };
+		85A596241B3514BB00EDA785 /* Geom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595091B3514BB00EDA785 /* Geom.m */; };
+		85A596251B3514BB00EDA785 /* BasicStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5950C1B3514BB00EDA785 /* BasicStroke.m */; };
+		85A596261B3514BB00EDA785 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5950E1B3514BB00EDA785 /* Color.m */; };
+		85A596271B3514BB00EDA785 /* Graphics2DInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595101B3514BB00EDA785 /* Graphics2DInterface.m */; };
+		85A596281B3514BB00EDA785 /* GraphicsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595121B3514BB00EDA785 /* GraphicsFactory.m */; };
+		85A596291B3514BB00EDA785 /* HasForegroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595141B3514BB00EDA785 /* HasForegroundColor.m */; };
+		85A5962A1B3514BB00EDA785 /* Icon.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595161B3514BB00EDA785 /* Icon.m */; };
+		85A5962B1B3514BB00EDA785 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595181B3514BB00EDA785 /* Image.m */; };
+		85A5962C1B3514BB00EDA785 /* Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5951A1B3514BB00EDA785 /* Insets.m */; };
+		85A5962D1B3514BB00EDA785 /* RenderingHints.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5951C1B3514BB00EDA785 /* RenderingHints.m */; };
+		85A5962E1B3514BB00EDA785 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5951E1B3514BB00EDA785 /* Stroke.m */; };
+		85A5962F1B3514BB00EDA785 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595201B3514BB00EDA785 /* Transform.m */; };
+		85A596301B3514BB00EDA785 /* Graphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595221B3514BB00EDA785 /* Graphics.m */; };
+		85A596311B3514BB00EDA785 /* Attr.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595251B3514BB00EDA785 /* Attr.m */; };
+		85A596321B3514BB00EDA785 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595271B3514BB00EDA785 /* Document.m */; };
+		85A596331B3514BB00EDA785 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595291B3514BB00EDA785 /* Element.m */; };
+		85A596341B3514BB00EDA785 /* NamedNodeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5952B1B3514BB00EDA785 /* NamedNodeMap.m */; };
+		85A596351B3514BB00EDA785 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5952D1B3514BB00EDA785 /* Node.m */; };
+		85A596361B3514BB00EDA785 /* NodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5952F1B3514BB00EDA785 /* NodeList.m */; };
+		85A596371B3514BB00EDA785 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595311B3514BB00EDA785 /* Parser.m */; };
+		85A596381B3514BB00EDA785 /* ParserFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595331B3514BB00EDA785 /* ParserFactory.m */; };
+		85A596391B3514BB00EDA785 /* ParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595351B3514BB00EDA785 /* ParserAdapter.m */; };
+		85A5963A1B3514BB00EDA785 /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595371B3514BB00EDA785 /* Resource.m */; };
+		85A5963B1B3514BB00EDA785 /* ResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5953A1B3514BB00EDA785 /* ResourceLoader.m */; };
+		85A5963C1B3514BB00EDA785 /* ResourceLoaderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5953C1B3514BB00EDA785 /* ResourceLoaderFactory.m */; };
+		85A5963D1B3514BB00EDA785 /* PredefinedCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5953E1B3514BB00EDA785 /* PredefinedCommands.m */; };
+		85A5963E1B3514BB00EDA785 /* PredefinedTeXFormulaParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595401B3514BB00EDA785 /* PredefinedTeXFormulaParser.m */; };
+		85A5963F1B3514BB00EDA785 /* PredefinedTeXFormulas.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595421B3514BB00EDA785 /* PredefinedTeXFormulas.m */; };
+		85A596401B3514BB00EDA785 /* PredefMacroInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595441B3514BB00EDA785 /* PredefMacroInfo.m */; };
+		85A596411B3514BB00EDA785 /* PredefMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595461B3514BB00EDA785 /* PredefMacros.m */; };
+		85A596421B3514BB00EDA785 /* RaiseAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595481B3514BB00EDA785 /* RaiseAtom.m */; };
+		85A596431B3514BB00EDA785 /* ReflectAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5954A1B3514BB00EDA785 /* ReflectAtom.m */; };
+		85A596441B3514BB00EDA785 /* ReflectBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5954C1B3514BB00EDA785 /* ReflectBox.m */; };
+		85A596451B3514BB00EDA785 /* RegexUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5954F1B3514BB00EDA785 /* RegexUtil.m */; };
+		85A596461B3514BB00EDA785 /* ResizeAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595511B3514BB00EDA785 /* ResizeAtom.m */; };
+		85A596471B3514BB00EDA785 /* RomanAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595531B3514BB00EDA785 /* RomanAtom.m */; };
+		85A596481B3514BB00EDA785 /* RotateAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595551B3514BB00EDA785 /* RotateAtom.m */; };
+		85A596491B3514BB00EDA785 /* RotateBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595571B3514BB00EDA785 /* RotateBox.m */; };
+		85A5964A1B3514BB00EDA785 /* Row.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595591B3514BB00EDA785 /* Row.m */; };
+		85A5964B1B3514BB00EDA785 /* RowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5955B1B3514BB00EDA785 /* RowAtom.m */; };
+		85A5964C1B3514BB00EDA785 /* RuleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5955D1B3514BB00EDA785 /* RuleAtom.m */; };
+		85A5964D1B3514BB00EDA785 /* ScaleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5955F1B3514BB00EDA785 /* ScaleAtom.m */; };
+		85A5964E1B3514BB00EDA785 /* ScaleBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595611B3514BB00EDA785 /* ScaleBox.m */; };
+		85A5964F1B3514BB00EDA785 /* ScriptsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595631B3514BB00EDA785 /* ScriptsAtom.m */; };
+		85A596501B3514BB00EDA785 /* ShadowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595651B3514BB00EDA785 /* ShadowAtom.m */; };
+		85A596511B3514BB00EDA785 /* ShadowBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595671B3514BB00EDA785 /* ShadowBox.m */; };
+		85A596521B3514BB00EDA785 /* SmallCapAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595691B3514BB00EDA785 /* SmallCapAtom.m */; };
+		85A596531B3514BB00EDA785 /* SmashedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5956B1B3514BB00EDA785 /* SmashedAtom.m */; };
+		85A596541B3514BB00EDA785 /* SpaceAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5956D1B3514BB00EDA785 /* SpaceAtom.m */; };
+		85A596551B3514BB00EDA785 /* SsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5956F1B3514BB00EDA785 /* SsAtom.m */; };
+		85A596561B3514BB00EDA785 /* StrikeThroughAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595711B3514BB00EDA785 /* StrikeThroughAtom.m */; };
+		85A596571B3514BB00EDA785 /* StrutBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595731B3514BB00EDA785 /* StrutBox.m */; };
+		85A596581B3514BB00EDA785 /* StyleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595751B3514BB00EDA785 /* StyleAtom.m */; };
+		85A596591B3514BB00EDA785 /* SymbolAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595771B3514BB00EDA785 /* SymbolAtom.m */; };
+		85A5965A1B3514BB00EDA785 /* tcaronAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595791B3514BB00EDA785 /* tcaronAtom.m */; };
+		85A5965B1B3514BB00EDA785 /* TeXConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5957B1B3514BB00EDA785 /* TeXConstants.m */; };
+		85A5965C1B3514BB00EDA785 /* TeXEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5957D1B3514BB00EDA785 /* TeXEnvironment.m */; };
+		85A5965D1B3514BB00EDA785 /* TeXFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5957F1B3514BB00EDA785 /* TeXFont.m */; };
+		85A5965E1B3514BB00EDA785 /* TeXFormula.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595811B3514BB00EDA785 /* TeXFormula.m */; };
+		85A5965F1B3514BB00EDA785 /* TeXFormulaParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595831B3514BB00EDA785 /* TeXFormulaParser.m */; };
+		85A596601B3514BB00EDA785 /* TeXFormulaSettingsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595851B3514BB00EDA785 /* TeXFormulaSettingsParser.m */; };
+		85A596611B3514BB00EDA785 /* TeXIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595871B3514BB00EDA785 /* TeXIcon.m */; };
+		85A596621B3514BB00EDA785 /* TeXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595891B3514BB00EDA785 /* TeXParser.m */; };
+		85A596631B3514BB00EDA785 /* TeXSymbolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5958B1B3514BB00EDA785 /* TeXSymbolParser.m */; };
+		85A596641B3514BB00EDA785 /* TextCircledAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5958D1B3514BB00EDA785 /* TextCircledAtom.m */; };
+		85A596651B3514BB00EDA785 /* TextStyleAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5958F1B3514BB00EDA785 /* TextStyleAtom.m */; };
+		85A596661B3514BB00EDA785 /* TStrokeAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595911B3514BB00EDA785 /* TStrokeAtom.m */; };
+		85A596671B3514BB00EDA785 /* TtAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595931B3514BB00EDA785 /* TtAtom.m */; };
+		85A596681B3514BB00EDA785 /* TypedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595951B3514BB00EDA785 /* TypedAtom.m */; };
+		85A596691B3514BB00EDA785 /* UnderlinedAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595971B3514BB00EDA785 /* UnderlinedAtom.m */; };
+		85A5966A1B3514BB00EDA785 /* UnderOverArrowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595991B3514BB00EDA785 /* UnderOverArrowAtom.m */; };
+		85A5966B1B3514BB00EDA785 /* UnderOverAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5959B1B3514BB00EDA785 /* UnderOverAtom.m */; };
+		85A5966C1B3514BB00EDA785 /* UnderscoreAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5959D1B3514BB00EDA785 /* UnderscoreAtom.m */; };
+		85A5966D1B3514BB00EDA785 /* URLAlphabetRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5959F1B3514BB00EDA785 /* URLAlphabetRegistration.m */; };
+		85A5966E1B3514BB00EDA785 /* VCenteredAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595A11B3514BB00EDA785 /* VCenteredAtom.m */; };
+		85A5966F1B3514BB00EDA785 /* VdotsAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595A31B3514BB00EDA785 /* VdotsAtom.m */; };
+		85A596701B3514BB00EDA785 /* VerticalBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595A51B3514BB00EDA785 /* VerticalBox.m */; };
+		85A596711B3514BB00EDA785 /* VlineAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595A71B3514BB00EDA785 /* VlineAtom.m */; };
+		85A596721B3514BB00EDA785 /* VRowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595A91B3514BB00EDA785 /* VRowAtom.m */; };
+		85A596731B3514BB00EDA785 /* WebStartAlphabetRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AB1B3514BB00EDA785 /* WebStartAlphabetRegistration.m */; };
+		85A596741B3514BB00EDA785 /* XArrowAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AD1B3514BB00EDA785 /* XArrowAtom.m */; };
+		85A596751B3514BB00EDA785 /* XLeftRightArrowFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A595AF1B3514BB00EDA785 /* XLeftRightArrowFactory.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		85A591761B35102600EDA785 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.java;
+			isEditable = 1;
+			outputFiles = (
+				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.h",
+				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.m",
+			);
+			script = "~/j2objc-0.9.7/j2objc -d ${DERIVED_FILES_DIR} \\\n-sourcepath ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/ \\\n${INPUT_FILE_PATH};";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		85A591671B35101400EDA785 /* PBXContainerItemProxy */ = {
@@ -40,6 +255,405 @@
 		85A591661B35101400EDA785 /* JLaTeXMath-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLaTeXMath-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A5916B1B35101400EDA785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85A5916C1B35101400EDA785 /* JLaTeXMath_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLaTeXMath_iOSTests.m; sourceTree = "<group>"; };
+		85A591771B3510E200EDA785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		85A591791B3510E900EDA785 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		85A5917B1B3510F300EDA785 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		85A594171B3514BA00EDA785 /* AccentedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccentedAtom.h; sourceTree = "<group>"; };
+		85A594181B3514BA00EDA785 /* AccentedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccentedAtom.m; sourceTree = "<group>"; };
+		85A594191B3514BA00EDA785 /* AlphabetRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphabetRegistration.h; sourceTree = "<group>"; };
+		85A5941A1B3514BA00EDA785 /* AlphabetRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphabetRegistration.m; sourceTree = "<group>"; };
+		85A5941B1B3514BA00EDA785 /* ArrayOfAtoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfAtoms.h; sourceTree = "<group>"; };
+		85A5941C1B3514BA00EDA785 /* ArrayOfAtoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfAtoms.m; sourceTree = "<group>"; };
+		85A5941D1B3514BA00EDA785 /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		85A5941E1B3514BA00EDA785 /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
+		85A5941F1B3514BA00EDA785 /* BigDelimiterAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigDelimiterAtom.h; sourceTree = "<group>"; };
+		85A594201B3514BA00EDA785 /* BigDelimiterAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigDelimiterAtom.m; sourceTree = "<group>"; };
+		85A594211B3514BA00EDA785 /* BigOperatorAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigOperatorAtom.h; sourceTree = "<group>"; };
+		85A594221B3514BA00EDA785 /* BigOperatorAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigOperatorAtom.m; sourceTree = "<group>"; };
+		85A594231B3514BA00EDA785 /* BitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitSet.h; sourceTree = "<group>"; };
+		85A594241B3514BA00EDA785 /* BitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitSet.m; sourceTree = "<group>"; };
+		85A594251B3514BA00EDA785 /* BoldAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoldAtom.h; sourceTree = "<group>"; };
+		85A594261B3514BA00EDA785 /* BoldAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoldAtom.m; sourceTree = "<group>"; };
+		85A594271B3514BA00EDA785 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		85A594281B3514BA00EDA785 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		85A594291B3514BA00EDA785 /* BreakFormula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakFormula.h; sourceTree = "<group>"; };
+		85A5942A1B3514BA00EDA785 /* BreakFormula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakFormula.m; sourceTree = "<group>"; };
+		85A5942B1B3514BA00EDA785 /* BreakMarkAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakMarkAtom.h; sourceTree = "<group>"; };
+		85A5942C1B3514BA00EDA785 /* BreakMarkAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakMarkAtom.m; sourceTree = "<group>"; };
+		85A5942E1B3514BA00EDA785 /* JLaTeXMathCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLaTeXMathCache.h; sourceTree = "<group>"; };
+		85A5942F1B3514BA00EDA785 /* JLaTeXMathCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLaTeXMathCache.m; sourceTree = "<group>"; };
+		85A594301B3514BA00EDA785 /* CedillaAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CedillaAtom.h; sourceTree = "<group>"; };
+		85A594311B3514BA00EDA785 /* CedillaAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CedillaAtom.m; sourceTree = "<group>"; };
+		85A594321B3514BA00EDA785 /* Char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Char.h; sourceTree = "<group>"; };
+		85A594331B3514BA00EDA785 /* Char.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Char.m; sourceTree = "<group>"; };
+		85A594351B3514BA00EDA785 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		85A594361B3514BA00EDA785 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		85A594371B3514BA00EDA785 /* CharAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharAtom.h; sourceTree = "<group>"; };
+		85A594381B3514BA00EDA785 /* CharAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharAtom.m; sourceTree = "<group>"; };
+		85A594391B3514BA00EDA785 /* CharBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharBox.h; sourceTree = "<group>"; };
+		85A5943A1B3514BA00EDA785 /* CharBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharBox.m; sourceTree = "<group>"; };
+		85A5943B1B3514BA00EDA785 /* CharFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharFont.h; sourceTree = "<group>"; };
+		85A5943C1B3514BA00EDA785 /* CharFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharFont.m; sourceTree = "<group>"; };
+		85A5943D1B3514BA00EDA785 /* CharSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharSymbol.h; sourceTree = "<group>"; };
+		85A5943E1B3514BA00EDA785 /* CharSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharSymbol.m; sourceTree = "<group>"; };
+		85A5943F1B3514BA00EDA785 /* ColorAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorAtom.h; sourceTree = "<group>"; };
+		85A594401B3514BA00EDA785 /* ColorAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorAtom.m; sourceTree = "<group>"; };
+		85A594411B3514BA00EDA785 /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
+		85A594421B3514BA00EDA785 /* ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
+		85A594431B3514BA00EDA785 /* CumulativeScriptsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CumulativeScriptsAtom.h; sourceTree = "<group>"; };
+		85A594441B3514BA00EDA785 /* CumulativeScriptsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CumulativeScriptsAtom.m; sourceTree = "<group>"; };
+		85A594461B3514BA00EDA785 /* CyrillicRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyrillicRegistration.h; sourceTree = "<group>"; };
+		85A594471B3514BA00EDA785 /* CyrillicRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyrillicRegistration.m; sourceTree = "<group>"; };
+		85A594481B3514BA00EDA785 /* DdotsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DdotsAtom.h; sourceTree = "<group>"; };
+		85A594491B3514BA00EDA785 /* DdotsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DdotsAtom.m; sourceTree = "<group>"; };
+		85A5944A1B3514BA00EDA785 /* DefaultTeXFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTeXFont.h; sourceTree = "<group>"; };
+		85A5944B1B3514BA00EDA785 /* DefaultTeXFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTeXFont.m; sourceTree = "<group>"; };
+		85A5944C1B3514BA00EDA785 /* DefaultTeXFontParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTeXFontParser.h; sourceTree = "<group>"; };
+		85A5944D1B3514BA00EDA785 /* DefaultTeXFontParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTeXFontParser.m; sourceTree = "<group>"; };
+		85A5944E1B3514BA00EDA785 /* DelimiterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelimiterFactory.h; sourceTree = "<group>"; };
+		85A5944F1B3514BA00EDA785 /* DelimiterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelimiterFactory.m; sourceTree = "<group>"; };
+		85A594501B3514BA00EDA785 /* DoubleFramedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleFramedAtom.h; sourceTree = "<group>"; };
+		85A594511B3514BA00EDA785 /* DoubleFramedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleFramedAtom.m; sourceTree = "<group>"; };
+		85A594521B3514BA00EDA785 /* Dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		85A594531B3514BA00EDA785 /* Dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		85A594551B3514BA00EDA785 /* DynamicAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAtom.h; sourceTree = "<group>"; };
+		85A594561B3514BA00EDA785 /* DynamicAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAtom.m; sourceTree = "<group>"; };
+		85A594571B3514BA00EDA785 /* ExternalConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalConverter.h; sourceTree = "<group>"; };
+		85A594581B3514BA00EDA785 /* ExternalConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalConverter.m; sourceTree = "<group>"; };
+		85A594591B3514BA00EDA785 /* ExternalConverterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalConverterFactory.h; sourceTree = "<group>"; };
+		85A5945A1B3514BA00EDA785 /* ExternalConverterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalConverterFactory.m; sourceTree = "<group>"; };
+		85A5945B1B3514BA00EDA785 /* EmptyAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyAtom.h; sourceTree = "<group>"; };
+		85A5945C1B3514BA00EDA785 /* EmptyAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyAtom.m; sourceTree = "<group>"; };
+		85A5945E1B3514BA00EDA785 /* AlphabetRegistrationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphabetRegistrationException.h; sourceTree = "<group>"; };
+		85A5945F1B3514BA00EDA785 /* AlphabetRegistrationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphabetRegistrationException.m; sourceTree = "<group>"; };
+		85A594601B3514BA00EDA785 /* DelimiterMappingNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelimiterMappingNotFoundException.h; sourceTree = "<group>"; };
+		85A594611B3514BA00EDA785 /* DelimiterMappingNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelimiterMappingNotFoundException.m; sourceTree = "<group>"; };
+		85A594621B3514BA00EDA785 /* EmptyFormulaException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyFormulaException.h; sourceTree = "<group>"; };
+		85A594631B3514BA00EDA785 /* EmptyFormulaException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyFormulaException.m; sourceTree = "<group>"; };
+		85A594641B3514BA00EDA785 /* FontAlreadyLoadedException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAlreadyLoadedException.h; sourceTree = "<group>"; };
+		85A594651B3514BA00EDA785 /* FontAlreadyLoadedException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAlreadyLoadedException.m; sourceTree = "<group>"; };
+		85A594661B3514BA00EDA785 /* FormulaNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormulaNotFoundException.h; sourceTree = "<group>"; };
+		85A594671B3514BA00EDA785 /* FormulaNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormulaNotFoundException.m; sourceTree = "<group>"; };
+		85A594681B3514BA00EDA785 /* InvalidAtomTypeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidAtomTypeException.h; sourceTree = "<group>"; };
+		85A594691B3514BA00EDA785 /* InvalidAtomTypeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidAtomTypeException.m; sourceTree = "<group>"; };
+		85A5946A1B3514BA00EDA785 /* InvalidDelimiterException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidDelimiterException.h; sourceTree = "<group>"; };
+		85A5946B1B3514BA00EDA785 /* InvalidDelimiterException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidDelimiterException.m; sourceTree = "<group>"; };
+		85A5946C1B3514BA00EDA785 /* InvalidDelimiterTypeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidDelimiterTypeException.h; sourceTree = "<group>"; };
+		85A5946D1B3514BA00EDA785 /* InvalidDelimiterTypeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidDelimiterTypeException.m; sourceTree = "<group>"; };
+		85A5946E1B3514BA00EDA785 /* InvalidMatrixException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidMatrixException.h; sourceTree = "<group>"; };
+		85A5946F1B3514BA00EDA785 /* InvalidMatrixException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidMatrixException.m; sourceTree = "<group>"; };
+		85A594701B3514BA00EDA785 /* InvalidSymbolTypeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidSymbolTypeException.h; sourceTree = "<group>"; };
+		85A594711B3514BA00EDA785 /* InvalidSymbolTypeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidSymbolTypeException.m; sourceTree = "<group>"; };
+		85A594721B3514BA00EDA785 /* InvalidTeXFormulaException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidTeXFormulaException.h; sourceTree = "<group>"; };
+		85A594731B3514BA00EDA785 /* InvalidTeXFormulaException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidTeXFormulaException.m; sourceTree = "<group>"; };
+		85A594741B3514BA00EDA785 /* InvalidUnitException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidUnitException.h; sourceTree = "<group>"; };
+		85A594751B3514BA00EDA785 /* InvalidUnitException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidUnitException.m; sourceTree = "<group>"; };
+		85A594761B3514BA00EDA785 /* JMathTeXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMathTeXException.h; sourceTree = "<group>"; };
+		85A594771B3514BA00EDA785 /* JMathTeXException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMathTeXException.m; sourceTree = "<group>"; };
+		85A594781B3514BA00EDA785 /* ParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseException.h; sourceTree = "<group>"; };
+		85A594791B3514BA00EDA785 /* ParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseException.m; sourceTree = "<group>"; };
+		85A5947A1B3514BA00EDA785 /* ResourceParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceParseException.h; sourceTree = "<group>"; };
+		85A5947B1B3514BA00EDA785 /* ResourceParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceParseException.m; sourceTree = "<group>"; };
+		85A5947C1B3514BA00EDA785 /* SymbolMappingNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolMappingNotFoundException.h; sourceTree = "<group>"; };
+		85A5947D1B3514BA00EDA785 /* SymbolMappingNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolMappingNotFoundException.m; sourceTree = "<group>"; };
+		85A5947E1B3514BA00EDA785 /* SymbolNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolNotFoundException.h; sourceTree = "<group>"; };
+		85A5947F1B3514BA00EDA785 /* SymbolNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolNotFoundException.m; sourceTree = "<group>"; };
+		85A594801B3514BA00EDA785 /* TextStyleMappingNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStyleMappingNotFoundException.h; sourceTree = "<group>"; };
+		85A594811B3514BA00EDA785 /* TextStyleMappingNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStyleMappingNotFoundException.m; sourceTree = "<group>"; };
+		85A594821B3514BA00EDA785 /* XMLResourceParseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLResourceParseException.h; sourceTree = "<group>"; };
+		85A594831B3514BA00EDA785 /* XMLResourceParseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLResourceParseException.m; sourceTree = "<group>"; };
+		85A594841B3514BA00EDA785 /* Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extension.h; sourceTree = "<group>"; };
+		85A594851B3514BA00EDA785 /* Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extension.m; sourceTree = "<group>"; };
+		85A594861B3514BA00EDA785 /* FBoxAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBoxAtom.h; sourceTree = "<group>"; };
+		85A594871B3514BA00EDA785 /* FBoxAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBoxAtom.m; sourceTree = "<group>"; };
+		85A594881B3514BA00EDA785 /* FcscoreAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcscoreAtom.h; sourceTree = "<group>"; };
+		85A594891B3514BA00EDA785 /* FcscoreAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcscoreAtom.m; sourceTree = "<group>"; };
+		85A5948A1B3514BA00EDA785 /* FcscoreBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcscoreBox.h; sourceTree = "<group>"; };
+		85A5948B1B3514BA00EDA785 /* FcscoreBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcscoreBox.m; sourceTree = "<group>"; };
+		85A5948C1B3514BA00EDA785 /* FencedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FencedAtom.h; sourceTree = "<group>"; };
+		85A5948D1B3514BA00EDA785 /* FencedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FencedAtom.m; sourceTree = "<group>"; };
+		85A5948E1B3514BA00EDA785 /* FixedCharAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedCharAtom.h; sourceTree = "<group>"; };
+		85A5948F1B3514BA00EDA785 /* FixedCharAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedCharAtom.m; sourceTree = "<group>"; };
+		85A594901B3514BA00EDA785 /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInfo.h; sourceTree = "<group>"; };
+		85A594911B3514BA00EDA785 /* FontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInfo.m; sourceTree = "<group>"; };
+		85A594921B3514BA00EDA785 /* FractionAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionAtom.h; sourceTree = "<group>"; };
+		85A594931B3514BA00EDA785 /* FractionAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionAtom.m; sourceTree = "<group>"; };
+		85A594941B3514BA00EDA785 /* FramedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramedBox.h; sourceTree = "<group>"; };
+		85A594951B3514BA00EDA785 /* FramedBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramedBox.m; sourceTree = "<group>"; };
+		85A594961B3514BA00EDA785 /* GeoGebraLogoAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoGebraLogoAtom.h; sourceTree = "<group>"; };
+		85A594971B3514BA00EDA785 /* GeoGebraLogoAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoGebraLogoAtom.m; sourceTree = "<group>"; };
+		85A594981B3514BA00EDA785 /* GeoGebraLogoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoGebraLogoBox.h; sourceTree = "<group>"; };
+		85A594991B3514BA00EDA785 /* GeoGebraLogoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoGebraLogoBox.m; sourceTree = "<group>"; };
+		85A5949A1B3514BA00EDA785 /* Glue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glue.h; sourceTree = "<group>"; };
+		85A5949B1B3514BA00EDA785 /* Glue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glue.m; sourceTree = "<group>"; };
+		85A5949C1B3514BA00EDA785 /* GlueBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlueBox.h; sourceTree = "<group>"; };
+		85A5949D1B3514BA00EDA785 /* GlueBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlueBox.m; sourceTree = "<group>"; };
+		85A5949E1B3514BA00EDA785 /* GlueSettingsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlueSettingsParser.h; sourceTree = "<group>"; };
+		85A5949F1B3514BA00EDA785 /* GlueSettingsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlueSettingsParser.m; sourceTree = "<group>"; };
+		85A594A01B3514BA00EDA785 /* GraphicsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAtom.h; sourceTree = "<group>"; };
+		85A594A11B3514BA00EDA785 /* GraphicsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsAtom.m; sourceTree = "<group>"; };
+		85A594A21B3514BA00EDA785 /* GraphicsBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsBox.h; sourceTree = "<group>"; };
+		85A594A31B3514BA00EDA785 /* GraphicsBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsBox.m; sourceTree = "<group>"; };
+		85A594A51B3514BA00EDA785 /* GreekRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreekRegistration.h; sourceTree = "<group>"; };
+		85A594A61B3514BA00EDA785 /* GreekRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreekRegistration.m; sourceTree = "<group>"; };
+		85A594A71B3514BA00EDA785 /* HdotsforAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HdotsforAtom.h; sourceTree = "<group>"; };
+		85A594A81B3514BA00EDA785 /* HdotsforAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HdotsforAtom.m; sourceTree = "<group>"; };
+		85A594A91B3514BA00EDA785 /* HlineAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HlineAtom.h; sourceTree = "<group>"; };
+		85A594AA1B3514BA00EDA785 /* HlineAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HlineAtom.m; sourceTree = "<group>"; };
+		85A594AB1B3514BA00EDA785 /* HorizontalBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalBox.h; sourceTree = "<group>"; };
+		85A594AC1B3514BA00EDA785 /* HorizontalBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalBox.m; sourceTree = "<group>"; };
+		85A594AD1B3514BA00EDA785 /* HorizontalRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalRule.h; sourceTree = "<group>"; };
+		85A594AE1B3514BA00EDA785 /* HorizontalRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalRule.m; sourceTree = "<group>"; };
+		85A594AF1B3514BA00EDA785 /* IddotsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IddotsAtom.h; sourceTree = "<group>"; };
+		85A594B01B3514BA00EDA785 /* IddotsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IddotsAtom.m; sourceTree = "<group>"; };
+		85A594B11B3514BA00EDA785 /* IJAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJAtom.h; sourceTree = "<group>"; };
+		85A594B21B3514BA00EDA785 /* IJAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJAtom.m; sourceTree = "<group>"; };
+		85A594B31B3514BA00EDA785 /* ItAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItAtom.h; sourceTree = "<group>"; };
+		85A594B41B3514BA00EDA785 /* ItAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItAtom.m; sourceTree = "<group>"; };
+		85A594B51B3514BA00EDA785 /* JavaFontRenderingAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaFontRenderingAtom.h; sourceTree = "<group>"; };
+		85A594B61B3514BA00EDA785 /* JavaFontRenderingAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaFontRenderingAtom.m; sourceTree = "<group>"; };
+		85A594B71B3514BA00EDA785 /* JavaFontRenderingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaFontRenderingBox.h; sourceTree = "<group>"; };
+		85A594B81B3514BA00EDA785 /* JavaFontRenderingBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaFontRenderingBox.m; sourceTree = "<group>"; };
+		85A594B91B3514BA00EDA785 /* LapedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapedAtom.h; sourceTree = "<group>"; };
+		85A594BA1B3514BA00EDA785 /* LapedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapedAtom.m; sourceTree = "<group>"; };
+		85A594BB1B3514BA00EDA785 /* LaTeXAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaTeXAtom.h; sourceTree = "<group>"; };
+		85A594BC1B3514BA00EDA785 /* LaTeXAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaTeXAtom.m; sourceTree = "<group>"; };
+		85A594BD1B3514BA00EDA785 /* LCaronAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCaronAtom.h; sourceTree = "<group>"; };
+		85A594BE1B3514BA00EDA785 /* LCaronAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCaronAtom.m; sourceTree = "<group>"; };
+		85A594BF1B3514BA00EDA785 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		85A594C01B3514BA00EDA785 /* Macro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macro.m; sourceTree = "<group>"; };
+		85A594C11B3514BA00EDA785 /* MacroInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroInfo.h; sourceTree = "<group>"; };
+		85A594C21B3514BA00EDA785 /* MacroInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroInfo.m; sourceTree = "<group>"; };
+		85A594C31B3514BA00EDA785 /* MathAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathAtom.h; sourceTree = "<group>"; };
+		85A594C41B3514BA00EDA785 /* MathAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathAtom.m; sourceTree = "<group>"; };
+		85A594C51B3514BA00EDA785 /* MatrixAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixAtom.h; sourceTree = "<group>"; };
+		85A594C61B3514BA00EDA785 /* MatrixAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixAtom.m; sourceTree = "<group>"; };
+		85A594C71B3514BA00EDA785 /* Metrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Metrics.h; sourceTree = "<group>"; };
+		85A594C81B3514BA00EDA785 /* Metrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Metrics.m; sourceTree = "<group>"; };
+		85A594C91B3514BA00EDA785 /* MiddleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleAtom.h; sourceTree = "<group>"; };
+		85A594CA1B3514BA00EDA785 /* MiddleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleAtom.m; sourceTree = "<group>"; };
+		85A594CB1B3514BA00EDA785 /* MonoScaleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonoScaleAtom.h; sourceTree = "<group>"; };
+		85A594CC1B3514BA00EDA785 /* MonoScaleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonoScaleAtom.m; sourceTree = "<group>"; };
+		85A594CD1B3514BA00EDA785 /* MulticolumnAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolumnAtom.h; sourceTree = "<group>"; };
+		85A594CE1B3514BA00EDA785 /* MulticolumnAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolumnAtom.m; sourceTree = "<group>"; };
+		85A594CF1B3514BA00EDA785 /* MultlineAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultlineAtom.h; sourceTree = "<group>"; };
+		85A594D01B3514BA00EDA785 /* MultlineAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultlineAtom.m; sourceTree = "<group>"; };
+		85A594D11B3514BA00EDA785 /* NewCommandMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCommandMacro.h; sourceTree = "<group>"; };
+		85A594D21B3514BA00EDA785 /* NewCommandMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCommandMacro.m; sourceTree = "<group>"; };
+		85A594D31B3514BA00EDA785 /* NewEnvironmentMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEnvironmentMacro.h; sourceTree = "<group>"; };
+		85A594D41B3514BA00EDA785 /* NewEnvironmentMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEnvironmentMacro.m; sourceTree = "<group>"; };
+		85A594D51B3514BA00EDA785 /* NthRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NthRoot.h; sourceTree = "<group>"; };
+		85A594D61B3514BA00EDA785 /* NthRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NthRoot.m; sourceTree = "<group>"; };
+		85A594D71B3514BA00EDA785 /* OgonekAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OgonekAtom.h; sourceTree = "<group>"; };
+		85A594D81B3514BA00EDA785 /* OgonekAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OgonekAtom.m; sourceTree = "<group>"; };
+		85A594D91B3514BA00EDA785 /* OvalAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalAtom.h; sourceTree = "<group>"; };
+		85A594DA1B3514BA00EDA785 /* OvalAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalAtom.m; sourceTree = "<group>"; };
+		85A594DB1B3514BA00EDA785 /* OvalBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalBox.h; sourceTree = "<group>"; };
+		85A594DC1B3514BA00EDA785 /* OvalBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalBox.m; sourceTree = "<group>"; };
+		85A594DD1B3514BA00EDA785 /* OverBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverBar.h; sourceTree = "<group>"; };
+		85A594DE1B3514BA00EDA785 /* OverBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverBar.m; sourceTree = "<group>"; };
+		85A594DF1B3514BA00EDA785 /* OverlinedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlinedAtom.h; sourceTree = "<group>"; };
+		85A594E01B3514BA00EDA785 /* OverlinedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlinedAtom.m; sourceTree = "<group>"; };
+		85A594E11B3514BA00EDA785 /* OverUnderBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverUnderBox.h; sourceTree = "<group>"; };
+		85A594E21B3514BA00EDA785 /* OverUnderBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverUnderBox.m; sourceTree = "<group>"; };
+		85A594E31B3514BA00EDA785 /* OverUnderDelimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverUnderDelimiter.h; sourceTree = "<group>"; };
+		85A594E41B3514BA00EDA785 /* OverUnderDelimiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverUnderDelimiter.m; sourceTree = "<group>"; };
+		85A594E51B3514BA00EDA785 /* ParseOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOption.h; sourceTree = "<group>"; };
+		85A594E61B3514BA00EDA785 /* ParseOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOption.m; sourceTree = "<group>"; };
+		85A594E71B3514BA00EDA785 /* PhantomAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhantomAtom.h; sourceTree = "<group>"; };
+		85A594E81B3514BA00EDA785 /* PhantomAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhantomAtom.m; sourceTree = "<group>"; };
+		85A594EA1B3514BA00EDA785 /* FactoryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryProvider.h; sourceTree = "<group>"; };
+		85A594EB1B3514BB00EDA785 /* FactoryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryProvider.m; sourceTree = "<group>"; };
+		85A594ED1B3514BB00EDA785 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		85A594EE1B3514BB00EDA785 /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
+		85A594EF1B3514BB00EDA785 /* FontFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontFactory.h; sourceTree = "<group>"; };
+		85A594F01B3514BB00EDA785 /* FontFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontFactory.m; sourceTree = "<group>"; };
+		85A594F11B3514BB00EDA785 /* FontLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontLoader.h; sourceTree = "<group>"; };
+		85A594F21B3514BB00EDA785 /* FontLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontLoader.m; sourceTree = "<group>"; };
+		85A594F31B3514BB00EDA785 /* FontRenderContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontRenderContext.h; sourceTree = "<group>"; };
+		85A594F41B3514BB00EDA785 /* FontRenderContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontRenderContext.m; sourceTree = "<group>"; };
+		85A594F51B3514BB00EDA785 /* TextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttribute.h; sourceTree = "<group>"; };
+		85A594F61B3514BB00EDA785 /* TextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttribute.m; sourceTree = "<group>"; };
+		85A594F71B3514BB00EDA785 /* TextAttributeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAttributeProvider.h; sourceTree = "<group>"; };
+		85A594F81B3514BB00EDA785 /* TextAttributeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAttributeProvider.m; sourceTree = "<group>"; };
+		85A594F91B3514BB00EDA785 /* TextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayout.h; sourceTree = "<group>"; };
+		85A594FA1B3514BB00EDA785 /* TextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayout.m; sourceTree = "<group>"; };
+		85A594FB1B3514BB00EDA785 /* FontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAdapter.h; sourceTree = "<group>"; };
+		85A594FC1B3514BB00EDA785 /* FontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAdapter.m; sourceTree = "<group>"; };
+		85A594FE1B3514BB00EDA785 /* GeomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomFactory.h; sourceTree = "<group>"; };
+		85A594FF1B3514BB00EDA785 /* GeomFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeomFactory.m; sourceTree = "<group>"; };
+		85A595001B3514BB00EDA785 /* Line2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line2D.h; sourceTree = "<group>"; };
+		85A595011B3514BB00EDA785 /* Line2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line2D.m; sourceTree = "<group>"; };
+		85A595021B3514BB00EDA785 /* Point2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2D.h; sourceTree = "<group>"; };
+		85A595031B3514BB00EDA785 /* Point2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point2D.m; sourceTree = "<group>"; };
+		85A595041B3514BB00EDA785 /* Rectangle2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle2D.h; sourceTree = "<group>"; };
+		85A595051B3514BB00EDA785 /* Rectangle2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle2D.m; sourceTree = "<group>"; };
+		85A595061B3514BB00EDA785 /* RoundRectangle2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRectangle2D.h; sourceTree = "<group>"; };
+		85A595071B3514BB00EDA785 /* RoundRectangle2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectangle2D.m; sourceTree = "<group>"; };
+		85A595081B3514BB00EDA785 /* Geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geom.h; sourceTree = "<group>"; };
+		85A595091B3514BB00EDA785 /* Geom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geom.m; sourceTree = "<group>"; };
+		85A5950B1B3514BB00EDA785 /* BasicStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicStroke.h; sourceTree = "<group>"; };
+		85A5950C1B3514BB00EDA785 /* BasicStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStroke.m; sourceTree = "<group>"; };
+		85A5950D1B3514BB00EDA785 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		85A5950E1B3514BB00EDA785 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		85A5950F1B3514BB00EDA785 /* Graphics2DInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics2DInterface.h; sourceTree = "<group>"; };
+		85A595101B3514BB00EDA785 /* Graphics2DInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics2DInterface.m; sourceTree = "<group>"; };
+		85A595111B3514BB00EDA785 /* GraphicsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsFactory.h; sourceTree = "<group>"; };
+		85A595121B3514BB00EDA785 /* GraphicsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsFactory.m; sourceTree = "<group>"; };
+		85A595131B3514BB00EDA785 /* HasForegroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasForegroundColor.h; sourceTree = "<group>"; };
+		85A595141B3514BB00EDA785 /* HasForegroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasForegroundColor.m; sourceTree = "<group>"; };
+		85A595151B3514BB00EDA785 /* Icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icon.h; sourceTree = "<group>"; };
+		85A595161B3514BB00EDA785 /* Icon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Icon.m; sourceTree = "<group>"; };
+		85A595171B3514BB00EDA785 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		85A595181B3514BB00EDA785 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		85A595191B3514BB00EDA785 /* Insets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Insets.h; sourceTree = "<group>"; };
+		85A5951A1B3514BB00EDA785 /* Insets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Insets.m; sourceTree = "<group>"; };
+		85A5951B1B3514BB00EDA785 /* RenderingHints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingHints.h; sourceTree = "<group>"; };
+		85A5951C1B3514BB00EDA785 /* RenderingHints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingHints.m; sourceTree = "<group>"; };
+		85A5951D1B3514BB00EDA785 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		85A5951E1B3514BB00EDA785 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		85A5951F1B3514BB00EDA785 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		85A595201B3514BB00EDA785 /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
+		85A595211B3514BB00EDA785 /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		85A595221B3514BB00EDA785 /* Graphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics.m; sourceTree = "<group>"; };
+		85A595241B3514BB00EDA785 /* Attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attr.h; sourceTree = "<group>"; };
+		85A595251B3514BB00EDA785 /* Attr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attr.m; sourceTree = "<group>"; };
+		85A595261B3514BB00EDA785 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		85A595271B3514BB00EDA785 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		85A595281B3514BB00EDA785 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		85A595291B3514BB00EDA785 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		85A5952A1B3514BB00EDA785 /* NamedNodeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedNodeMap.h; sourceTree = "<group>"; };
+		85A5952B1B3514BB00EDA785 /* NamedNodeMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedNodeMap.m; sourceTree = "<group>"; };
+		85A5952C1B3514BB00EDA785 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		85A5952D1B3514BB00EDA785 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		85A5952E1B3514BB00EDA785 /* NodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeList.h; sourceTree = "<group>"; };
+		85A5952F1B3514BB00EDA785 /* NodeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeList.m; sourceTree = "<group>"; };
+		85A595301B3514BB00EDA785 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		85A595311B3514BB00EDA785 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		85A595321B3514BB00EDA785 /* ParserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserFactory.h; sourceTree = "<group>"; };
+		85A595331B3514BB00EDA785 /* ParserFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserFactory.m; sourceTree = "<group>"; };
+		85A595341B3514BB00EDA785 /* ParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserAdapter.h; sourceTree = "<group>"; };
+		85A595351B3514BB00EDA785 /* ParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserAdapter.m; sourceTree = "<group>"; };
+		85A595361B3514BB00EDA785 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		85A595371B3514BB00EDA785 /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resource.m; sourceTree = "<group>"; };
+		85A595391B3514BB00EDA785 /* ResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceLoader.h; sourceTree = "<group>"; };
+		85A5953A1B3514BB00EDA785 /* ResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceLoader.m; sourceTree = "<group>"; };
+		85A5953B1B3514BB00EDA785 /* ResourceLoaderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceLoaderFactory.h; sourceTree = "<group>"; };
+		85A5953C1B3514BB00EDA785 /* ResourceLoaderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceLoaderFactory.m; sourceTree = "<group>"; };
+		85A5953D1B3514BB00EDA785 /* PredefinedCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefinedCommands.h; sourceTree = "<group>"; };
+		85A5953E1B3514BB00EDA785 /* PredefinedCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredefinedCommands.m; sourceTree = "<group>"; };
+		85A5953F1B3514BB00EDA785 /* PredefinedTeXFormulaParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefinedTeXFormulaParser.h; sourceTree = "<group>"; };
+		85A595401B3514BB00EDA785 /* PredefinedTeXFormulaParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredefinedTeXFormulaParser.m; sourceTree = "<group>"; };
+		85A595411B3514BB00EDA785 /* PredefinedTeXFormulas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefinedTeXFormulas.h; sourceTree = "<group>"; };
+		85A595421B3514BB00EDA785 /* PredefinedTeXFormulas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredefinedTeXFormulas.m; sourceTree = "<group>"; };
+		85A595431B3514BB00EDA785 /* PredefMacroInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefMacroInfo.h; sourceTree = "<group>"; };
+		85A595441B3514BB00EDA785 /* PredefMacroInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredefMacroInfo.m; sourceTree = "<group>"; };
+		85A595451B3514BB00EDA785 /* PredefMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefMacros.h; sourceTree = "<group>"; };
+		85A595461B3514BB00EDA785 /* PredefMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredefMacros.m; sourceTree = "<group>"; };
+		85A595471B3514BB00EDA785 /* RaiseAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaiseAtom.h; sourceTree = "<group>"; };
+		85A595481B3514BB00EDA785 /* RaiseAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaiseAtom.m; sourceTree = "<group>"; };
+		85A595491B3514BB00EDA785 /* ReflectAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectAtom.h; sourceTree = "<group>"; };
+		85A5954A1B3514BB00EDA785 /* ReflectAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectAtom.m; sourceTree = "<group>"; };
+		85A5954B1B3514BB00EDA785 /* ReflectBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectBox.h; sourceTree = "<group>"; };
+		85A5954C1B3514BB00EDA785 /* ReflectBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectBox.m; sourceTree = "<group>"; };
+		85A5954E1B3514BB00EDA785 /* RegexUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexUtil.h; sourceTree = "<group>"; };
+		85A5954F1B3514BB00EDA785 /* RegexUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexUtil.m; sourceTree = "<group>"; };
+		85A595501B3514BB00EDA785 /* ResizeAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeAtom.h; sourceTree = "<group>"; };
+		85A595511B3514BB00EDA785 /* ResizeAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeAtom.m; sourceTree = "<group>"; };
+		85A595521B3514BB00EDA785 /* RomanAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomanAtom.h; sourceTree = "<group>"; };
+		85A595531B3514BB00EDA785 /* RomanAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomanAtom.m; sourceTree = "<group>"; };
+		85A595541B3514BB00EDA785 /* RotateAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateAtom.h; sourceTree = "<group>"; };
+		85A595551B3514BB00EDA785 /* RotateAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateAtom.m; sourceTree = "<group>"; };
+		85A595561B3514BB00EDA785 /* RotateBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateBox.h; sourceTree = "<group>"; };
+		85A595571B3514BB00EDA785 /* RotateBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateBox.m; sourceTree = "<group>"; };
+		85A595581B3514BB00EDA785 /* Row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row.h; sourceTree = "<group>"; };
+		85A595591B3514BB00EDA785 /* Row.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row.m; sourceTree = "<group>"; };
+		85A5955A1B3514BB00EDA785 /* RowAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowAtom.h; sourceTree = "<group>"; };
+		85A5955B1B3514BB00EDA785 /* RowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowAtom.m; sourceTree = "<group>"; };
+		85A5955C1B3514BB00EDA785 /* RuleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleAtom.h; sourceTree = "<group>"; };
+		85A5955D1B3514BB00EDA785 /* RuleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleAtom.m; sourceTree = "<group>"; };
+		85A5955E1B3514BB00EDA785 /* ScaleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAtom.h; sourceTree = "<group>"; };
+		85A5955F1B3514BB00EDA785 /* ScaleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAtom.m; sourceTree = "<group>"; };
+		85A595601B3514BB00EDA785 /* ScaleBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleBox.h; sourceTree = "<group>"; };
+		85A595611B3514BB00EDA785 /* ScaleBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleBox.m; sourceTree = "<group>"; };
+		85A595621B3514BB00EDA785 /* ScriptsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptsAtom.h; sourceTree = "<group>"; };
+		85A595631B3514BB00EDA785 /* ScriptsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptsAtom.m; sourceTree = "<group>"; };
+		85A595641B3514BB00EDA785 /* ShadowAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowAtom.h; sourceTree = "<group>"; };
+		85A595651B3514BB00EDA785 /* ShadowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowAtom.m; sourceTree = "<group>"; };
+		85A595661B3514BB00EDA785 /* ShadowBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowBox.h; sourceTree = "<group>"; };
+		85A595671B3514BB00EDA785 /* ShadowBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowBox.m; sourceTree = "<group>"; };
+		85A595681B3514BB00EDA785 /* SmallCapAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallCapAtom.h; sourceTree = "<group>"; };
+		85A595691B3514BB00EDA785 /* SmallCapAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallCapAtom.m; sourceTree = "<group>"; };
+		85A5956A1B3514BB00EDA785 /* SmashedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmashedAtom.h; sourceTree = "<group>"; };
+		85A5956B1B3514BB00EDA785 /* SmashedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmashedAtom.m; sourceTree = "<group>"; };
+		85A5956C1B3514BB00EDA785 /* SpaceAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceAtom.h; sourceTree = "<group>"; };
+		85A5956D1B3514BB00EDA785 /* SpaceAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceAtom.m; sourceTree = "<group>"; };
+		85A5956E1B3514BB00EDA785 /* SsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsAtom.h; sourceTree = "<group>"; };
+		85A5956F1B3514BB00EDA785 /* SsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsAtom.m; sourceTree = "<group>"; };
+		85A595701B3514BB00EDA785 /* StrikeThroughAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeThroughAtom.h; sourceTree = "<group>"; };
+		85A595711B3514BB00EDA785 /* StrikeThroughAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeThroughAtom.m; sourceTree = "<group>"; };
+		85A595721B3514BB00EDA785 /* StrutBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrutBox.h; sourceTree = "<group>"; };
+		85A595731B3514BB00EDA785 /* StrutBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrutBox.m; sourceTree = "<group>"; };
+		85A595741B3514BB00EDA785 /* StyleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleAtom.h; sourceTree = "<group>"; };
+		85A595751B3514BB00EDA785 /* StyleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleAtom.m; sourceTree = "<group>"; };
+		85A595761B3514BB00EDA785 /* SymbolAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolAtom.h; sourceTree = "<group>"; };
+		85A595771B3514BB00EDA785 /* SymbolAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolAtom.m; sourceTree = "<group>"; };
+		85A595781B3514BB00EDA785 /* tcaronAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcaronAtom.h; sourceTree = "<group>"; };
+		85A595791B3514BB00EDA785 /* tcaronAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tcaronAtom.m; sourceTree = "<group>"; };
+		85A5957A1B3514BB00EDA785 /* TeXConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXConstants.h; sourceTree = "<group>"; };
+		85A5957B1B3514BB00EDA785 /* TeXConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXConstants.m; sourceTree = "<group>"; };
+		85A5957C1B3514BB00EDA785 /* TeXEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXEnvironment.h; sourceTree = "<group>"; };
+		85A5957D1B3514BB00EDA785 /* TeXEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXEnvironment.m; sourceTree = "<group>"; };
+		85A5957E1B3514BB00EDA785 /* TeXFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXFont.h; sourceTree = "<group>"; };
+		85A5957F1B3514BB00EDA785 /* TeXFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXFont.m; sourceTree = "<group>"; };
+		85A595801B3514BB00EDA785 /* TeXFormula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXFormula.h; sourceTree = "<group>"; };
+		85A595811B3514BB00EDA785 /* TeXFormula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXFormula.m; sourceTree = "<group>"; };
+		85A595821B3514BB00EDA785 /* TeXFormulaParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXFormulaParser.h; sourceTree = "<group>"; };
+		85A595831B3514BB00EDA785 /* TeXFormulaParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXFormulaParser.m; sourceTree = "<group>"; };
+		85A595841B3514BB00EDA785 /* TeXFormulaSettingsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXFormulaSettingsParser.h; sourceTree = "<group>"; };
+		85A595851B3514BB00EDA785 /* TeXFormulaSettingsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXFormulaSettingsParser.m; sourceTree = "<group>"; };
+		85A595861B3514BB00EDA785 /* TeXIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXIcon.h; sourceTree = "<group>"; };
+		85A595871B3514BB00EDA785 /* TeXIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXIcon.m; sourceTree = "<group>"; };
+		85A595881B3514BB00EDA785 /* TeXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXParser.h; sourceTree = "<group>"; };
+		85A595891B3514BB00EDA785 /* TeXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXParser.m; sourceTree = "<group>"; };
+		85A5958A1B3514BB00EDA785 /* TeXSymbolParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXSymbolParser.h; sourceTree = "<group>"; };
+		85A5958B1B3514BB00EDA785 /* TeXSymbolParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeXSymbolParser.m; sourceTree = "<group>"; };
+		85A5958C1B3514BB00EDA785 /* TextCircledAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCircledAtom.h; sourceTree = "<group>"; };
+		85A5958D1B3514BB00EDA785 /* TextCircledAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCircledAtom.m; sourceTree = "<group>"; };
+		85A5958E1B3514BB00EDA785 /* TextStyleAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStyleAtom.h; sourceTree = "<group>"; };
+		85A5958F1B3514BB00EDA785 /* TextStyleAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStyleAtom.m; sourceTree = "<group>"; };
+		85A595901B3514BB00EDA785 /* TStrokeAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TStrokeAtom.h; sourceTree = "<group>"; };
+		85A595911B3514BB00EDA785 /* TStrokeAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TStrokeAtom.m; sourceTree = "<group>"; };
+		85A595921B3514BB00EDA785 /* TtAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TtAtom.h; sourceTree = "<group>"; };
+		85A595931B3514BB00EDA785 /* TtAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TtAtom.m; sourceTree = "<group>"; };
+		85A595941B3514BB00EDA785 /* TypedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypedAtom.h; sourceTree = "<group>"; };
+		85A595951B3514BB00EDA785 /* TypedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypedAtom.m; sourceTree = "<group>"; };
+		85A595961B3514BB00EDA785 /* UnderlinedAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderlinedAtom.h; sourceTree = "<group>"; };
+		85A595971B3514BB00EDA785 /* UnderlinedAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderlinedAtom.m; sourceTree = "<group>"; };
+		85A595981B3514BB00EDA785 /* UnderOverArrowAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderOverArrowAtom.h; sourceTree = "<group>"; };
+		85A595991B3514BB00EDA785 /* UnderOverArrowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderOverArrowAtom.m; sourceTree = "<group>"; };
+		85A5959A1B3514BB00EDA785 /* UnderOverAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderOverAtom.h; sourceTree = "<group>"; };
+		85A5959B1B3514BB00EDA785 /* UnderOverAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderOverAtom.m; sourceTree = "<group>"; };
+		85A5959C1B3514BB00EDA785 /* UnderscoreAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderscoreAtom.h; sourceTree = "<group>"; };
+		85A5959D1B3514BB00EDA785 /* UnderscoreAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderscoreAtom.m; sourceTree = "<group>"; };
+		85A5959E1B3514BB00EDA785 /* URLAlphabetRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLAlphabetRegistration.h; sourceTree = "<group>"; };
+		85A5959F1B3514BB00EDA785 /* URLAlphabetRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLAlphabetRegistration.m; sourceTree = "<group>"; };
+		85A595A01B3514BB00EDA785 /* VCenteredAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCenteredAtom.h; sourceTree = "<group>"; };
+		85A595A11B3514BB00EDA785 /* VCenteredAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCenteredAtom.m; sourceTree = "<group>"; };
+		85A595A21B3514BB00EDA785 /* VdotsAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdotsAtom.h; sourceTree = "<group>"; };
+		85A595A31B3514BB00EDA785 /* VdotsAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VdotsAtom.m; sourceTree = "<group>"; };
+		85A595A41B3514BB00EDA785 /* VerticalBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalBox.h; sourceTree = "<group>"; };
+		85A595A51B3514BB00EDA785 /* VerticalBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalBox.m; sourceTree = "<group>"; };
+		85A595A61B3514BB00EDA785 /* VlineAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VlineAtom.h; sourceTree = "<group>"; };
+		85A595A71B3514BB00EDA785 /* VlineAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VlineAtom.m; sourceTree = "<group>"; };
+		85A595A81B3514BB00EDA785 /* VRowAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRowAtom.h; sourceTree = "<group>"; };
+		85A595A91B3514BB00EDA785 /* VRowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRowAtom.m; sourceTree = "<group>"; };
+		85A595AA1B3514BB00EDA785 /* WebStartAlphabetRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebStartAlphabetRegistration.h; sourceTree = "<group>"; };
+		85A595AB1B3514BB00EDA785 /* WebStartAlphabetRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebStartAlphabetRegistration.m; sourceTree = "<group>"; };
+		85A595AC1B3514BB00EDA785 /* XArrowAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XArrowAtom.h; sourceTree = "<group>"; };
+		85A595AD1B3514BB00EDA785 /* XArrowAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XArrowAtom.m; sourceTree = "<group>"; };
+		85A595AE1B3514BB00EDA785 /* XLeftRightArrowFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLeftRightArrowFactory.h; sourceTree = "<group>"; };
+		85A595AF1B3514BB00EDA785 /* XLeftRightArrowFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLeftRightArrowFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +661,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A5917C1B3510F300EDA785 /* libicucore.dylib in Frameworks */,
+				85A5917A1B3510E900EDA785 /* libz.1.2.5.dylib in Frameworks */,
+				85A591781B3510E200EDA785 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +680,9 @@
 		85A591441B35101300EDA785 = {
 			isa = PBXGroup;
 			children = (
+				85A5917B1B3510F300EDA785 /* libicucore.dylib */,
+				85A591791B3510E900EDA785 /* libz.1.2.5.dylib */,
+				85A591771B3510E200EDA785 /* Security.framework */,
 				85A5914F1B35101300EDA785 /* JLaTeXMath-iOS */,
 				85A591691B35101400EDA785 /* JLaTeXMath-iOSTests */,
 				85A5914E1B35101300EDA785 /* Products */,
@@ -81,6 +701,8 @@
 		85A5914F1B35101300EDA785 /* JLaTeXMath-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				85A596761B35154E00EDA785 /* jlatexmath-iOS */,
+				85A5917D1B3511C200EDA785 /* jlatexmath-share */,
 				85A591541B35101400EDA785 /* AppDelegate.h */,
 				85A591551B35101400EDA785 /* AppDelegate.m */,
 				85A591571B35101400EDA785 /* ViewController.h */,
@@ -119,6 +741,552 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		85A5917D1B3511C200EDA785 /* jlatexmath-share */ = {
+			isa = PBXGroup;
+			children = (
+				85A594131B3514BA00EDA785 /* org */,
+			);
+			path = "jlatexmath-share";
+			sourceTree = "<group>";
+		};
+		85A594131B3514BA00EDA785 /* org */ = {
+			isa = PBXGroup;
+			children = (
+				85A594141B3514BA00EDA785 /* scilab */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		85A594141B3514BA00EDA785 /* scilab */ = {
+			isa = PBXGroup;
+			children = (
+				85A594151B3514BA00EDA785 /* forge */,
+			);
+			path = scilab;
+			sourceTree = "<group>";
+		};
+		85A594151B3514BA00EDA785 /* forge */ = {
+			isa = PBXGroup;
+			children = (
+				85A594161B3514BA00EDA785 /* jlatexmath */,
+			);
+			path = forge;
+			sourceTree = "<group>";
+		};
+		85A594161B3514BA00EDA785 /* jlatexmath */ = {
+			isa = PBXGroup;
+			children = (
+				85A594171B3514BA00EDA785 /* AccentedAtom.h */,
+				85A594181B3514BA00EDA785 /* AccentedAtom.m */,
+				85A594191B3514BA00EDA785 /* AlphabetRegistration.h */,
+				85A5941A1B3514BA00EDA785 /* AlphabetRegistration.m */,
+				85A5941B1B3514BA00EDA785 /* ArrayOfAtoms.h */,
+				85A5941C1B3514BA00EDA785 /* ArrayOfAtoms.m */,
+				85A5941D1B3514BA00EDA785 /* Atom.h */,
+				85A5941E1B3514BA00EDA785 /* Atom.m */,
+				85A5941F1B3514BA00EDA785 /* BigDelimiterAtom.h */,
+				85A594201B3514BA00EDA785 /* BigDelimiterAtom.m */,
+				85A594211B3514BA00EDA785 /* BigOperatorAtom.h */,
+				85A594221B3514BA00EDA785 /* BigOperatorAtom.m */,
+				85A594231B3514BA00EDA785 /* BitSet.h */,
+				85A594241B3514BA00EDA785 /* BitSet.m */,
+				85A594251B3514BA00EDA785 /* BoldAtom.h */,
+				85A594261B3514BA00EDA785 /* BoldAtom.m */,
+				85A594271B3514BA00EDA785 /* Box.h */,
+				85A594281B3514BA00EDA785 /* Box.m */,
+				85A594291B3514BA00EDA785 /* BreakFormula.h */,
+				85A5942A1B3514BA00EDA785 /* BreakFormula.m */,
+				85A5942B1B3514BA00EDA785 /* BreakMarkAtom.h */,
+				85A5942C1B3514BA00EDA785 /* BreakMarkAtom.m */,
+				85A5942D1B3514BA00EDA785 /* cache */,
+				85A594301B3514BA00EDA785 /* CedillaAtom.h */,
+				85A594311B3514BA00EDA785 /* CedillaAtom.m */,
+				85A594321B3514BA00EDA785 /* Char.h */,
+				85A594331B3514BA00EDA785 /* Char.m */,
+				85A594341B3514BA00EDA785 /* character */,
+				85A594371B3514BA00EDA785 /* CharAtom.h */,
+				85A594381B3514BA00EDA785 /* CharAtom.m */,
+				85A594391B3514BA00EDA785 /* CharBox.h */,
+				85A5943A1B3514BA00EDA785 /* CharBox.m */,
+				85A5943B1B3514BA00EDA785 /* CharFont.h */,
+				85A5943C1B3514BA00EDA785 /* CharFont.m */,
+				85A5943D1B3514BA00EDA785 /* CharSymbol.h */,
+				85A5943E1B3514BA00EDA785 /* CharSymbol.m */,
+				85A5943F1B3514BA00EDA785 /* ColorAtom.h */,
+				85A594401B3514BA00EDA785 /* ColorAtom.m */,
+				85A594411B3514BA00EDA785 /* ColorUtil.h */,
+				85A594421B3514BA00EDA785 /* ColorUtil.m */,
+				85A594431B3514BA00EDA785 /* CumulativeScriptsAtom.h */,
+				85A594441B3514BA00EDA785 /* CumulativeScriptsAtom.m */,
+				85A594451B3514BA00EDA785 /* cyrillic */,
+				85A594481B3514BA00EDA785 /* DdotsAtom.h */,
+				85A594491B3514BA00EDA785 /* DdotsAtom.m */,
+				85A5944A1B3514BA00EDA785 /* DefaultTeXFont.h */,
+				85A5944B1B3514BA00EDA785 /* DefaultTeXFont.m */,
+				85A5944C1B3514BA00EDA785 /* DefaultTeXFontParser.h */,
+				85A5944D1B3514BA00EDA785 /* DefaultTeXFontParser.m */,
+				85A5944E1B3514BA00EDA785 /* DelimiterFactory.h */,
+				85A5944F1B3514BA00EDA785 /* DelimiterFactory.m */,
+				85A594501B3514BA00EDA785 /* DoubleFramedAtom.h */,
+				85A594511B3514BA00EDA785 /* DoubleFramedAtom.m */,
+				85A594521B3514BA00EDA785 /* Dummy.h */,
+				85A594531B3514BA00EDA785 /* Dummy.m */,
+				85A594541B3514BA00EDA785 /* dynamic */,
+				85A5945B1B3514BA00EDA785 /* EmptyAtom.h */,
+				85A5945C1B3514BA00EDA785 /* EmptyAtom.m */,
+				85A5945D1B3514BA00EDA785 /* exception */,
+				85A594841B3514BA00EDA785 /* Extension.h */,
+				85A594851B3514BA00EDA785 /* Extension.m */,
+				85A594861B3514BA00EDA785 /* FBoxAtom.h */,
+				85A594871B3514BA00EDA785 /* FBoxAtom.m */,
+				85A594881B3514BA00EDA785 /* FcscoreAtom.h */,
+				85A594891B3514BA00EDA785 /* FcscoreAtom.m */,
+				85A5948A1B3514BA00EDA785 /* FcscoreBox.h */,
+				85A5948B1B3514BA00EDA785 /* FcscoreBox.m */,
+				85A5948C1B3514BA00EDA785 /* FencedAtom.h */,
+				85A5948D1B3514BA00EDA785 /* FencedAtom.m */,
+				85A5948E1B3514BA00EDA785 /* FixedCharAtom.h */,
+				85A5948F1B3514BA00EDA785 /* FixedCharAtom.m */,
+				85A594901B3514BA00EDA785 /* FontInfo.h */,
+				85A594911B3514BA00EDA785 /* FontInfo.m */,
+				85A594921B3514BA00EDA785 /* FractionAtom.h */,
+				85A594931B3514BA00EDA785 /* FractionAtom.m */,
+				85A594941B3514BA00EDA785 /* FramedBox.h */,
+				85A594951B3514BA00EDA785 /* FramedBox.m */,
+				85A594961B3514BA00EDA785 /* GeoGebraLogoAtom.h */,
+				85A594971B3514BA00EDA785 /* GeoGebraLogoAtom.m */,
+				85A594981B3514BA00EDA785 /* GeoGebraLogoBox.h */,
+				85A594991B3514BA00EDA785 /* GeoGebraLogoBox.m */,
+				85A5949A1B3514BA00EDA785 /* Glue.h */,
+				85A5949B1B3514BA00EDA785 /* Glue.m */,
+				85A5949C1B3514BA00EDA785 /* GlueBox.h */,
+				85A5949D1B3514BA00EDA785 /* GlueBox.m */,
+				85A5949E1B3514BA00EDA785 /* GlueSettingsParser.h */,
+				85A5949F1B3514BA00EDA785 /* GlueSettingsParser.m */,
+				85A594A01B3514BA00EDA785 /* GraphicsAtom.h */,
+				85A594A11B3514BA00EDA785 /* GraphicsAtom.m */,
+				85A594A21B3514BA00EDA785 /* GraphicsBox.h */,
+				85A594A31B3514BA00EDA785 /* GraphicsBox.m */,
+				85A594A41B3514BA00EDA785 /* greek */,
+				85A594A71B3514BA00EDA785 /* HdotsforAtom.h */,
+				85A594A81B3514BA00EDA785 /* HdotsforAtom.m */,
+				85A594A91B3514BA00EDA785 /* HlineAtom.h */,
+				85A594AA1B3514BA00EDA785 /* HlineAtom.m */,
+				85A594AB1B3514BA00EDA785 /* HorizontalBox.h */,
+				85A594AC1B3514BA00EDA785 /* HorizontalBox.m */,
+				85A594AD1B3514BA00EDA785 /* HorizontalRule.h */,
+				85A594AE1B3514BA00EDA785 /* HorizontalRule.m */,
+				85A594AF1B3514BA00EDA785 /* IddotsAtom.h */,
+				85A594B01B3514BA00EDA785 /* IddotsAtom.m */,
+				85A594B11B3514BA00EDA785 /* IJAtom.h */,
+				85A594B21B3514BA00EDA785 /* IJAtom.m */,
+				85A594B31B3514BA00EDA785 /* ItAtom.h */,
+				85A594B41B3514BA00EDA785 /* ItAtom.m */,
+				85A594B51B3514BA00EDA785 /* JavaFontRenderingAtom.h */,
+				85A594B61B3514BA00EDA785 /* JavaFontRenderingAtom.m */,
+				85A594B71B3514BA00EDA785 /* JavaFontRenderingBox.h */,
+				85A594B81B3514BA00EDA785 /* JavaFontRenderingBox.m */,
+				85A594B91B3514BA00EDA785 /* LapedAtom.h */,
+				85A594BA1B3514BA00EDA785 /* LapedAtom.m */,
+				85A594BB1B3514BA00EDA785 /* LaTeXAtom.h */,
+				85A594BC1B3514BA00EDA785 /* LaTeXAtom.m */,
+				85A594BD1B3514BA00EDA785 /* LCaronAtom.h */,
+				85A594BE1B3514BA00EDA785 /* LCaronAtom.m */,
+				85A594BF1B3514BA00EDA785 /* Macro.h */,
+				85A594C01B3514BA00EDA785 /* Macro.m */,
+				85A594C11B3514BA00EDA785 /* MacroInfo.h */,
+				85A594C21B3514BA00EDA785 /* MacroInfo.m */,
+				85A594C31B3514BA00EDA785 /* MathAtom.h */,
+				85A594C41B3514BA00EDA785 /* MathAtom.m */,
+				85A594C51B3514BA00EDA785 /* MatrixAtom.h */,
+				85A594C61B3514BA00EDA785 /* MatrixAtom.m */,
+				85A594C71B3514BA00EDA785 /* Metrics.h */,
+				85A594C81B3514BA00EDA785 /* Metrics.m */,
+				85A594C91B3514BA00EDA785 /* MiddleAtom.h */,
+				85A594CA1B3514BA00EDA785 /* MiddleAtom.m */,
+				85A594CB1B3514BA00EDA785 /* MonoScaleAtom.h */,
+				85A594CC1B3514BA00EDA785 /* MonoScaleAtom.m */,
+				85A594CD1B3514BA00EDA785 /* MulticolumnAtom.h */,
+				85A594CE1B3514BA00EDA785 /* MulticolumnAtom.m */,
+				85A594CF1B3514BA00EDA785 /* MultlineAtom.h */,
+				85A594D01B3514BA00EDA785 /* MultlineAtom.m */,
+				85A594D11B3514BA00EDA785 /* NewCommandMacro.h */,
+				85A594D21B3514BA00EDA785 /* NewCommandMacro.m */,
+				85A594D31B3514BA00EDA785 /* NewEnvironmentMacro.h */,
+				85A594D41B3514BA00EDA785 /* NewEnvironmentMacro.m */,
+				85A594D51B3514BA00EDA785 /* NthRoot.h */,
+				85A594D61B3514BA00EDA785 /* NthRoot.m */,
+				85A594D71B3514BA00EDA785 /* OgonekAtom.h */,
+				85A594D81B3514BA00EDA785 /* OgonekAtom.m */,
+				85A594D91B3514BA00EDA785 /* OvalAtom.h */,
+				85A594DA1B3514BA00EDA785 /* OvalAtom.m */,
+				85A594DB1B3514BA00EDA785 /* OvalBox.h */,
+				85A594DC1B3514BA00EDA785 /* OvalBox.m */,
+				85A594DD1B3514BA00EDA785 /* OverBar.h */,
+				85A594DE1B3514BA00EDA785 /* OverBar.m */,
+				85A594DF1B3514BA00EDA785 /* OverlinedAtom.h */,
+				85A594E01B3514BA00EDA785 /* OverlinedAtom.m */,
+				85A594E11B3514BA00EDA785 /* OverUnderBox.h */,
+				85A594E21B3514BA00EDA785 /* OverUnderBox.m */,
+				85A594E31B3514BA00EDA785 /* OverUnderDelimiter.h */,
+				85A594E41B3514BA00EDA785 /* OverUnderDelimiter.m */,
+				85A594E51B3514BA00EDA785 /* ParseOption.h */,
+				85A594E61B3514BA00EDA785 /* ParseOption.m */,
+				85A594E71B3514BA00EDA785 /* PhantomAtom.h */,
+				85A594E81B3514BA00EDA785 /* PhantomAtom.m */,
+				85A594E91B3514BA00EDA785 /* platform */,
+				85A5953D1B3514BB00EDA785 /* PredefinedCommands.h */,
+				85A5953E1B3514BB00EDA785 /* PredefinedCommands.m */,
+				85A5953F1B3514BB00EDA785 /* PredefinedTeXFormulaParser.h */,
+				85A595401B3514BB00EDA785 /* PredefinedTeXFormulaParser.m */,
+				85A595411B3514BB00EDA785 /* PredefinedTeXFormulas.h */,
+				85A595421B3514BB00EDA785 /* PredefinedTeXFormulas.m */,
+				85A595431B3514BB00EDA785 /* PredefMacroInfo.h */,
+				85A595441B3514BB00EDA785 /* PredefMacroInfo.m */,
+				85A595451B3514BB00EDA785 /* PredefMacros.h */,
+				85A595461B3514BB00EDA785 /* PredefMacros.m */,
+				85A595471B3514BB00EDA785 /* RaiseAtom.h */,
+				85A595481B3514BB00EDA785 /* RaiseAtom.m */,
+				85A595491B3514BB00EDA785 /* ReflectAtom.h */,
+				85A5954A1B3514BB00EDA785 /* ReflectAtom.m */,
+				85A5954B1B3514BB00EDA785 /* ReflectBox.h */,
+				85A5954C1B3514BB00EDA785 /* ReflectBox.m */,
+				85A5954D1B3514BB00EDA785 /* regex */,
+				85A595501B3514BB00EDA785 /* ResizeAtom.h */,
+				85A595511B3514BB00EDA785 /* ResizeAtom.m */,
+				85A595521B3514BB00EDA785 /* RomanAtom.h */,
+				85A595531B3514BB00EDA785 /* RomanAtom.m */,
+				85A595541B3514BB00EDA785 /* RotateAtom.h */,
+				85A595551B3514BB00EDA785 /* RotateAtom.m */,
+				85A595561B3514BB00EDA785 /* RotateBox.h */,
+				85A595571B3514BB00EDA785 /* RotateBox.m */,
+				85A595581B3514BB00EDA785 /* Row.h */,
+				85A595591B3514BB00EDA785 /* Row.m */,
+				85A5955A1B3514BB00EDA785 /* RowAtom.h */,
+				85A5955B1B3514BB00EDA785 /* RowAtom.m */,
+				85A5955C1B3514BB00EDA785 /* RuleAtom.h */,
+				85A5955D1B3514BB00EDA785 /* RuleAtom.m */,
+				85A5955E1B3514BB00EDA785 /* ScaleAtom.h */,
+				85A5955F1B3514BB00EDA785 /* ScaleAtom.m */,
+				85A595601B3514BB00EDA785 /* ScaleBox.h */,
+				85A595611B3514BB00EDA785 /* ScaleBox.m */,
+				85A595621B3514BB00EDA785 /* ScriptsAtom.h */,
+				85A595631B3514BB00EDA785 /* ScriptsAtom.m */,
+				85A595641B3514BB00EDA785 /* ShadowAtom.h */,
+				85A595651B3514BB00EDA785 /* ShadowAtom.m */,
+				85A595661B3514BB00EDA785 /* ShadowBox.h */,
+				85A595671B3514BB00EDA785 /* ShadowBox.m */,
+				85A595681B3514BB00EDA785 /* SmallCapAtom.h */,
+				85A595691B3514BB00EDA785 /* SmallCapAtom.m */,
+				85A5956A1B3514BB00EDA785 /* SmashedAtom.h */,
+				85A5956B1B3514BB00EDA785 /* SmashedAtom.m */,
+				85A5956C1B3514BB00EDA785 /* SpaceAtom.h */,
+				85A5956D1B3514BB00EDA785 /* SpaceAtom.m */,
+				85A5956E1B3514BB00EDA785 /* SsAtom.h */,
+				85A5956F1B3514BB00EDA785 /* SsAtom.m */,
+				85A595701B3514BB00EDA785 /* StrikeThroughAtom.h */,
+				85A595711B3514BB00EDA785 /* StrikeThroughAtom.m */,
+				85A595721B3514BB00EDA785 /* StrutBox.h */,
+				85A595731B3514BB00EDA785 /* StrutBox.m */,
+				85A595741B3514BB00EDA785 /* StyleAtom.h */,
+				85A595751B3514BB00EDA785 /* StyleAtom.m */,
+				85A595761B3514BB00EDA785 /* SymbolAtom.h */,
+				85A595771B3514BB00EDA785 /* SymbolAtom.m */,
+				85A595781B3514BB00EDA785 /* tcaronAtom.h */,
+				85A595791B3514BB00EDA785 /* tcaronAtom.m */,
+				85A5957A1B3514BB00EDA785 /* TeXConstants.h */,
+				85A5957B1B3514BB00EDA785 /* TeXConstants.m */,
+				85A5957C1B3514BB00EDA785 /* TeXEnvironment.h */,
+				85A5957D1B3514BB00EDA785 /* TeXEnvironment.m */,
+				85A5957E1B3514BB00EDA785 /* TeXFont.h */,
+				85A5957F1B3514BB00EDA785 /* TeXFont.m */,
+				85A595801B3514BB00EDA785 /* TeXFormula.h */,
+				85A595811B3514BB00EDA785 /* TeXFormula.m */,
+				85A595821B3514BB00EDA785 /* TeXFormulaParser.h */,
+				85A595831B3514BB00EDA785 /* TeXFormulaParser.m */,
+				85A595841B3514BB00EDA785 /* TeXFormulaSettingsParser.h */,
+				85A595851B3514BB00EDA785 /* TeXFormulaSettingsParser.m */,
+				85A595861B3514BB00EDA785 /* TeXIcon.h */,
+				85A595871B3514BB00EDA785 /* TeXIcon.m */,
+				85A595881B3514BB00EDA785 /* TeXParser.h */,
+				85A595891B3514BB00EDA785 /* TeXParser.m */,
+				85A5958A1B3514BB00EDA785 /* TeXSymbolParser.h */,
+				85A5958B1B3514BB00EDA785 /* TeXSymbolParser.m */,
+				85A5958C1B3514BB00EDA785 /* TextCircledAtom.h */,
+				85A5958D1B3514BB00EDA785 /* TextCircledAtom.m */,
+				85A5958E1B3514BB00EDA785 /* TextStyleAtom.h */,
+				85A5958F1B3514BB00EDA785 /* TextStyleAtom.m */,
+				85A595901B3514BB00EDA785 /* TStrokeAtom.h */,
+				85A595911B3514BB00EDA785 /* TStrokeAtom.m */,
+				85A595921B3514BB00EDA785 /* TtAtom.h */,
+				85A595931B3514BB00EDA785 /* TtAtom.m */,
+				85A595941B3514BB00EDA785 /* TypedAtom.h */,
+				85A595951B3514BB00EDA785 /* TypedAtom.m */,
+				85A595961B3514BB00EDA785 /* UnderlinedAtom.h */,
+				85A595971B3514BB00EDA785 /* UnderlinedAtom.m */,
+				85A595981B3514BB00EDA785 /* UnderOverArrowAtom.h */,
+				85A595991B3514BB00EDA785 /* UnderOverArrowAtom.m */,
+				85A5959A1B3514BB00EDA785 /* UnderOverAtom.h */,
+				85A5959B1B3514BB00EDA785 /* UnderOverAtom.m */,
+				85A5959C1B3514BB00EDA785 /* UnderscoreAtom.h */,
+				85A5959D1B3514BB00EDA785 /* UnderscoreAtom.m */,
+				85A5959E1B3514BB00EDA785 /* URLAlphabetRegistration.h */,
+				85A5959F1B3514BB00EDA785 /* URLAlphabetRegistration.m */,
+				85A595A01B3514BB00EDA785 /* VCenteredAtom.h */,
+				85A595A11B3514BB00EDA785 /* VCenteredAtom.m */,
+				85A595A21B3514BB00EDA785 /* VdotsAtom.h */,
+				85A595A31B3514BB00EDA785 /* VdotsAtom.m */,
+				85A595A41B3514BB00EDA785 /* VerticalBox.h */,
+				85A595A51B3514BB00EDA785 /* VerticalBox.m */,
+				85A595A61B3514BB00EDA785 /* VlineAtom.h */,
+				85A595A71B3514BB00EDA785 /* VlineAtom.m */,
+				85A595A81B3514BB00EDA785 /* VRowAtom.h */,
+				85A595A91B3514BB00EDA785 /* VRowAtom.m */,
+				85A595AA1B3514BB00EDA785 /* WebStartAlphabetRegistration.h */,
+				85A595AB1B3514BB00EDA785 /* WebStartAlphabetRegistration.m */,
+				85A595AC1B3514BB00EDA785 /* XArrowAtom.h */,
+				85A595AD1B3514BB00EDA785 /* XArrowAtom.m */,
+				85A595AE1B3514BB00EDA785 /* XLeftRightArrowFactory.h */,
+				85A595AF1B3514BB00EDA785 /* XLeftRightArrowFactory.m */,
+			);
+			path = jlatexmath;
+			sourceTree = "<group>";
+		};
+		85A5942D1B3514BA00EDA785 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				85A5942E1B3514BA00EDA785 /* JLaTeXMathCache.h */,
+				85A5942F1B3514BA00EDA785 /* JLaTeXMathCache.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		85A594341B3514BA00EDA785 /* character */ = {
+			isa = PBXGroup;
+			children = (
+				85A594351B3514BA00EDA785 /* Character.h */,
+				85A594361B3514BA00EDA785 /* Character.m */,
+			);
+			path = character;
+			sourceTree = "<group>";
+		};
+		85A594451B3514BA00EDA785 /* cyrillic */ = {
+			isa = PBXGroup;
+			children = (
+				85A594461B3514BA00EDA785 /* CyrillicRegistration.h */,
+				85A594471B3514BA00EDA785 /* CyrillicRegistration.m */,
+			);
+			path = cyrillic;
+			sourceTree = "<group>";
+		};
+		85A594541B3514BA00EDA785 /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				85A594551B3514BA00EDA785 /* DynamicAtom.h */,
+				85A594561B3514BA00EDA785 /* DynamicAtom.m */,
+				85A594571B3514BA00EDA785 /* ExternalConverter.h */,
+				85A594581B3514BA00EDA785 /* ExternalConverter.m */,
+				85A594591B3514BA00EDA785 /* ExternalConverterFactory.h */,
+				85A5945A1B3514BA00EDA785 /* ExternalConverterFactory.m */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		85A5945D1B3514BA00EDA785 /* exception */ = {
+			isa = PBXGroup;
+			children = (
+				85A5945E1B3514BA00EDA785 /* AlphabetRegistrationException.h */,
+				85A5945F1B3514BA00EDA785 /* AlphabetRegistrationException.m */,
+				85A594601B3514BA00EDA785 /* DelimiterMappingNotFoundException.h */,
+				85A594611B3514BA00EDA785 /* DelimiterMappingNotFoundException.m */,
+				85A594621B3514BA00EDA785 /* EmptyFormulaException.h */,
+				85A594631B3514BA00EDA785 /* EmptyFormulaException.m */,
+				85A594641B3514BA00EDA785 /* FontAlreadyLoadedException.h */,
+				85A594651B3514BA00EDA785 /* FontAlreadyLoadedException.m */,
+				85A594661B3514BA00EDA785 /* FormulaNotFoundException.h */,
+				85A594671B3514BA00EDA785 /* FormulaNotFoundException.m */,
+				85A594681B3514BA00EDA785 /* InvalidAtomTypeException.h */,
+				85A594691B3514BA00EDA785 /* InvalidAtomTypeException.m */,
+				85A5946A1B3514BA00EDA785 /* InvalidDelimiterException.h */,
+				85A5946B1B3514BA00EDA785 /* InvalidDelimiterException.m */,
+				85A5946C1B3514BA00EDA785 /* InvalidDelimiterTypeException.h */,
+				85A5946D1B3514BA00EDA785 /* InvalidDelimiterTypeException.m */,
+				85A5946E1B3514BA00EDA785 /* InvalidMatrixException.h */,
+				85A5946F1B3514BA00EDA785 /* InvalidMatrixException.m */,
+				85A594701B3514BA00EDA785 /* InvalidSymbolTypeException.h */,
+				85A594711B3514BA00EDA785 /* InvalidSymbolTypeException.m */,
+				85A594721B3514BA00EDA785 /* InvalidTeXFormulaException.h */,
+				85A594731B3514BA00EDA785 /* InvalidTeXFormulaException.m */,
+				85A594741B3514BA00EDA785 /* InvalidUnitException.h */,
+				85A594751B3514BA00EDA785 /* InvalidUnitException.m */,
+				85A594761B3514BA00EDA785 /* JMathTeXException.h */,
+				85A594771B3514BA00EDA785 /* JMathTeXException.m */,
+				85A594781B3514BA00EDA785 /* ParseException.h */,
+				85A594791B3514BA00EDA785 /* ParseException.m */,
+				85A5947A1B3514BA00EDA785 /* ResourceParseException.h */,
+				85A5947B1B3514BA00EDA785 /* ResourceParseException.m */,
+				85A5947C1B3514BA00EDA785 /* SymbolMappingNotFoundException.h */,
+				85A5947D1B3514BA00EDA785 /* SymbolMappingNotFoundException.m */,
+				85A5947E1B3514BA00EDA785 /* SymbolNotFoundException.h */,
+				85A5947F1B3514BA00EDA785 /* SymbolNotFoundException.m */,
+				85A594801B3514BA00EDA785 /* TextStyleMappingNotFoundException.h */,
+				85A594811B3514BA00EDA785 /* TextStyleMappingNotFoundException.m */,
+				85A594821B3514BA00EDA785 /* XMLResourceParseException.h */,
+				85A594831B3514BA00EDA785 /* XMLResourceParseException.m */,
+			);
+			path = exception;
+			sourceTree = "<group>";
+		};
+		85A594A41B3514BA00EDA785 /* greek */ = {
+			isa = PBXGroup;
+			children = (
+				85A594A51B3514BA00EDA785 /* GreekRegistration.h */,
+				85A594A61B3514BA00EDA785 /* GreekRegistration.m */,
+			);
+			path = greek;
+			sourceTree = "<group>";
+		};
+		85A594E91B3514BA00EDA785 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				85A594EA1B3514BA00EDA785 /* FactoryProvider.h */,
+				85A594EB1B3514BB00EDA785 /* FactoryProvider.m */,
+				85A594EC1B3514BB00EDA785 /* font */,
+				85A594FB1B3514BB00EDA785 /* FontAdapter.h */,
+				85A594FC1B3514BB00EDA785 /* FontAdapter.m */,
+				85A594FD1B3514BB00EDA785 /* geom */,
+				85A595081B3514BB00EDA785 /* Geom.h */,
+				85A595091B3514BB00EDA785 /* Geom.m */,
+				85A5950A1B3514BB00EDA785 /* graphics */,
+				85A595211B3514BB00EDA785 /* Graphics.h */,
+				85A595221B3514BB00EDA785 /* Graphics.m */,
+				85A595231B3514BB00EDA785 /* parser */,
+				85A595341B3514BB00EDA785 /* ParserAdapter.h */,
+				85A595351B3514BB00EDA785 /* ParserAdapter.m */,
+				85A595361B3514BB00EDA785 /* Resource.h */,
+				85A595371B3514BB00EDA785 /* Resource.m */,
+				85A595381B3514BB00EDA785 /* resources */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		85A594EC1B3514BB00EDA785 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				85A594ED1B3514BB00EDA785 /* Font.h */,
+				85A594EE1B3514BB00EDA785 /* Font.m */,
+				85A594EF1B3514BB00EDA785 /* FontFactory.h */,
+				85A594F01B3514BB00EDA785 /* FontFactory.m */,
+				85A594F11B3514BB00EDA785 /* FontLoader.h */,
+				85A594F21B3514BB00EDA785 /* FontLoader.m */,
+				85A594F31B3514BB00EDA785 /* FontRenderContext.h */,
+				85A594F41B3514BB00EDA785 /* FontRenderContext.m */,
+				85A594F51B3514BB00EDA785 /* TextAttribute.h */,
+				85A594F61B3514BB00EDA785 /* TextAttribute.m */,
+				85A594F71B3514BB00EDA785 /* TextAttributeProvider.h */,
+				85A594F81B3514BB00EDA785 /* TextAttributeProvider.m */,
+				85A594F91B3514BB00EDA785 /* TextLayout.h */,
+				85A594FA1B3514BB00EDA785 /* TextLayout.m */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		85A594FD1B3514BB00EDA785 /* geom */ = {
+			isa = PBXGroup;
+			children = (
+				85A594FE1B3514BB00EDA785 /* GeomFactory.h */,
+				85A594FF1B3514BB00EDA785 /* GeomFactory.m */,
+				85A595001B3514BB00EDA785 /* Line2D.h */,
+				85A595011B3514BB00EDA785 /* Line2D.m */,
+				85A595021B3514BB00EDA785 /* Point2D.h */,
+				85A595031B3514BB00EDA785 /* Point2D.m */,
+				85A595041B3514BB00EDA785 /* Rectangle2D.h */,
+				85A595051B3514BB00EDA785 /* Rectangle2D.m */,
+				85A595061B3514BB00EDA785 /* RoundRectangle2D.h */,
+				85A595071B3514BB00EDA785 /* RoundRectangle2D.m */,
+			);
+			path = geom;
+			sourceTree = "<group>";
+		};
+		85A5950A1B3514BB00EDA785 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				85A5950B1B3514BB00EDA785 /* BasicStroke.h */,
+				85A5950C1B3514BB00EDA785 /* BasicStroke.m */,
+				85A5950D1B3514BB00EDA785 /* Color.h */,
+				85A5950E1B3514BB00EDA785 /* Color.m */,
+				85A5950F1B3514BB00EDA785 /* Graphics2DInterface.h */,
+				85A595101B3514BB00EDA785 /* Graphics2DInterface.m */,
+				85A595111B3514BB00EDA785 /* GraphicsFactory.h */,
+				85A595121B3514BB00EDA785 /* GraphicsFactory.m */,
+				85A595131B3514BB00EDA785 /* HasForegroundColor.h */,
+				85A595141B3514BB00EDA785 /* HasForegroundColor.m */,
+				85A595151B3514BB00EDA785 /* Icon.h */,
+				85A595161B3514BB00EDA785 /* Icon.m */,
+				85A595171B3514BB00EDA785 /* Image.h */,
+				85A595181B3514BB00EDA785 /* Image.m */,
+				85A595191B3514BB00EDA785 /* Insets.h */,
+				85A5951A1B3514BB00EDA785 /* Insets.m */,
+				85A5951B1B3514BB00EDA785 /* RenderingHints.h */,
+				85A5951C1B3514BB00EDA785 /* RenderingHints.m */,
+				85A5951D1B3514BB00EDA785 /* Stroke.h */,
+				85A5951E1B3514BB00EDA785 /* Stroke.m */,
+				85A5951F1B3514BB00EDA785 /* Transform.h */,
+				85A595201B3514BB00EDA785 /* Transform.m */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		85A595231B3514BB00EDA785 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				85A595241B3514BB00EDA785 /* Attr.h */,
+				85A595251B3514BB00EDA785 /* Attr.m */,
+				85A595261B3514BB00EDA785 /* Document.h */,
+				85A595271B3514BB00EDA785 /* Document.m */,
+				85A595281B3514BB00EDA785 /* Element.h */,
+				85A595291B3514BB00EDA785 /* Element.m */,
+				85A5952A1B3514BB00EDA785 /* NamedNodeMap.h */,
+				85A5952B1B3514BB00EDA785 /* NamedNodeMap.m */,
+				85A5952C1B3514BB00EDA785 /* Node.h */,
+				85A5952D1B3514BB00EDA785 /* Node.m */,
+				85A5952E1B3514BB00EDA785 /* NodeList.h */,
+				85A5952F1B3514BB00EDA785 /* NodeList.m */,
+				85A595301B3514BB00EDA785 /* Parser.h */,
+				85A595311B3514BB00EDA785 /* Parser.m */,
+				85A595321B3514BB00EDA785 /* ParserFactory.h */,
+				85A595331B3514BB00EDA785 /* ParserFactory.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		85A595381B3514BB00EDA785 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				85A595391B3514BB00EDA785 /* ResourceLoader.h */,
+				85A5953A1B3514BB00EDA785 /* ResourceLoader.m */,
+				85A5953B1B3514BB00EDA785 /* ResourceLoaderFactory.h */,
+				85A5953C1B3514BB00EDA785 /* ResourceLoaderFactory.m */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		85A5954D1B3514BB00EDA785 /* regex */ = {
+			isa = PBXGroup;
+			children = (
+				85A5954E1B3514BB00EDA785 /* RegexUtil.h */,
+				85A5954F1B3514BB00EDA785 /* RegexUtil.m */,
+			);
+			path = regex;
+			sourceTree = "<group>";
+		};
+		85A596761B35154E00EDA785 /* jlatexmath-iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "jlatexmath-iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +1299,7 @@
 				85A5914B1B35101300EDA785 /* Resources */,
 			);
 			buildRules = (
+				85A591761B35102600EDA785 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -219,9 +1388,207 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A595CA1B3514BB00EDA785 /* DelimiterFactory.m in Sources */,
+				85A5965C1B3514BB00EDA785 /* TeXEnvironment.m in Sources */,
+				85A5966D1B3514BB00EDA785 /* URLAlphabetRegistration.m in Sources */,
+				85A595B61B3514BB00EDA785 /* BitSet.m in Sources */,
+				85A5962A1B3514BB00EDA785 /* Icon.m in Sources */,
+				85A596361B3514BB00EDA785 /* NodeList.m in Sources */,
+				85A595D01B3514BB00EDA785 /* EmptyAtom.m in Sources */,
+				85A596691B3514BB00EDA785 /* UnderlinedAtom.m in Sources */,
+				85A596211B3514BB00EDA785 /* Point2D.m in Sources */,
+				85A595BB1B3514BB00EDA785 /* JLaTeXMathCache.m in Sources */,
+				85A595C11B3514BB00EDA785 /* CharFont.m in Sources */,
+				85A595EB1B3514BB00EDA785 /* FractionAtom.m in Sources */,
+				85A595E51B3514BB00EDA785 /* FBoxAtom.m in Sources */,
+				85A596171B3514BB00EDA785 /* Font.m in Sources */,
+				85A596541B3514BB00EDA785 /* SpaceAtom.m in Sources */,
+				85A596031B3514BB00EDA785 /* MathAtom.m in Sources */,
+				85A596551B3514BB00EDA785 /* SsAtom.m in Sources */,
+				85A596151B3514BB00EDA785 /* PhantomAtom.m in Sources */,
+				85A596491B3514BB00EDA785 /* RotateBox.m in Sources */,
+				85A596441B3514BB00EDA785 /* ReflectBox.m in Sources */,
+				85A596531B3514BB00EDA785 /* SmashedAtom.m in Sources */,
+				85A595F51B3514BB00EDA785 /* HdotsforAtom.m in Sources */,
+				85A596721B3514BB00EDA785 /* VRowAtom.m in Sources */,
+				85A595C61B3514BB00EDA785 /* CyrillicRegistration.m in Sources */,
+				85A5961A1B3514BB00EDA785 /* FontRenderContext.m in Sources */,
+				85A595C31B3514BB00EDA785 /* ColorAtom.m in Sources */,
+				85A596311B3514BB00EDA785 /* Attr.m in Sources */,
+				85A595FC1B3514BB00EDA785 /* JavaFontRenderingAtom.m in Sources */,
+				85A596381B3514BB00EDA785 /* ParserFactory.m in Sources */,
+				85A595DC1B3514BB00EDA785 /* InvalidUnitException.m in Sources */,
+				85A596051B3514BB00EDA785 /* Metrics.m in Sources */,
+				85A5960E1B3514BB00EDA785 /* OvalAtom.m in Sources */,
+				85A5965B1B3514BB00EDA785 /* TeXConstants.m in Sources */,
+				85A5966A1B3514BB00EDA785 /* UnderOverArrowAtom.m in Sources */,
+				85A595E91B3514BB00EDA785 /* FixedCharAtom.m in Sources */,
+				85A5961B1B3514BB00EDA785 /* TextAttribute.m in Sources */,
+				85A596731B3514BB00EDA785 /* WebStartAlphabetRegistration.m in Sources */,
+				85A596521B3514BB00EDA785 /* SmallCapAtom.m in Sources */,
+				85A595DF1B3514BB00EDA785 /* ResourceParseException.m in Sources */,
+				85A596581B3514BB00EDA785 /* StyleAtom.m in Sources */,
+				85A596481B3514BB00EDA785 /* RotateAtom.m in Sources */,
+				85A595B71B3514BB00EDA785 /* BoldAtom.m in Sources */,
+				85A596681B3514BB00EDA785 /* TypedAtom.m in Sources */,
+				85A5961C1B3514BB00EDA785 /* TextAttributeProvider.m in Sources */,
+				85A5963B1B3514BB00EDA785 /* ResourceLoader.m in Sources */,
+				85A5962C1B3514BB00EDA785 /* Insets.m in Sources */,
+				85A595CE1B3514BB00EDA785 /* ExternalConverter.m in Sources */,
+				85A595B31B3514BB00EDA785 /* Atom.m in Sources */,
 				85A591591B35101400EDA785 /* ViewController.m in Sources */,
+				85A596661B3514BB00EDA785 /* TStrokeAtom.m in Sources */,
+				85A595C51B3514BB00EDA785 /* CumulativeScriptsAtom.m in Sources */,
+				85A595B91B3514BB00EDA785 /* BreakFormula.m in Sources */,
+				85A5960F1B3514BB00EDA785 /* OvalBox.m in Sources */,
+				85A595B21B3514BB00EDA785 /* ArrayOfAtoms.m in Sources */,
+				85A595F91B3514BB00EDA785 /* IddotsAtom.m in Sources */,
+				85A5965E1B3514BB00EDA785 /* TeXFormula.m in Sources */,
+				85A596471B3514BB00EDA785 /* RomanAtom.m in Sources */,
+				85A596021B3514BB00EDA785 /* MacroInfo.m in Sources */,
+				85A595BC1B3514BB00EDA785 /* CedillaAtom.m in Sources */,
+				85A596141B3514BB00EDA785 /* ParseOption.m in Sources */,
+				85A596081B3514BB00EDA785 /* MulticolumnAtom.m in Sources */,
+				85A5964E1B3514BB00EDA785 /* ScaleBox.m in Sources */,
+				85A5964C1B3514BB00EDA785 /* RuleAtom.m in Sources */,
+				85A596571B3514BB00EDA785 /* StrutBox.m in Sources */,
+				85A596371B3514BB00EDA785 /* Parser.m in Sources */,
+				85A596001B3514BB00EDA785 /* LCaronAtom.m in Sources */,
+				85A595C91B3514BB00EDA785 /* DefaultTeXFontParser.m in Sources */,
+				85A595F31B3514BB00EDA785 /* GraphicsBox.m in Sources */,
+				85A596321B3514BB00EDA785 /* Document.m in Sources */,
+				85A595D31B3514BB00EDA785 /* EmptyFormulaException.m in Sources */,
+				85A596351B3514BB00EDA785 /* Node.m in Sources */,
+				85A595FA1B3514BB00EDA785 /* IJAtom.m in Sources */,
+				85A596281B3514BB00EDA785 /* GraphicsFactory.m in Sources */,
+				85A5964F1B3514BB00EDA785 /* ScriptsAtom.m in Sources */,
+				85A5966B1B3514BB00EDA785 /* UnderOverAtom.m in Sources */,
+				85A595E11B3514BB00EDA785 /* SymbolNotFoundException.m in Sources */,
+				85A595FB1B3514BB00EDA785 /* ItAtom.m in Sources */,
+				85A5963F1B3514BB00EDA785 /* PredefinedTeXFormulas.m in Sources */,
+				85A5960B1B3514BB00EDA785 /* NewEnvironmentMacro.m in Sources */,
+				85A595EA1B3514BB00EDA785 /* FontInfo.m in Sources */,
+				85A595CC1B3514BB00EDA785 /* Dummy.m in Sources */,
+				85A596651B3514BB00EDA785 /* TextStyleAtom.m in Sources */,
+				85A5962B1B3514BB00EDA785 /* Image.m in Sources */,
+				85A596161B3514BB00EDA785 /* FactoryProvider.m in Sources */,
+				85A595DE1B3514BB00EDA785 /* ParseException.m in Sources */,
+				85A595E21B3514BB00EDA785 /* TextStyleMappingNotFoundException.m in Sources */,
+				85A596561B3514BB00EDA785 /* StrikeThroughAtom.m in Sources */,
+				85A595EF1B3514BB00EDA785 /* Glue.m in Sources */,
+				85A595CD1B3514BB00EDA785 /* DynamicAtom.m in Sources */,
+				85A5966C1B3514BB00EDA785 /* UnderscoreAtom.m in Sources */,
+				85A5961F1B3514BB00EDA785 /* GeomFactory.m in Sources */,
+				85A595EE1B3514BB00EDA785 /* GeoGebraLogoBox.m in Sources */,
+				85A596601B3514BB00EDA785 /* TeXFormulaSettingsParser.m in Sources */,
+				85A595E01B3514BB00EDA785 /* SymbolMappingNotFoundException.m in Sources */,
+				85A596111B3514BB00EDA785 /* OverlinedAtom.m in Sources */,
+				85A596631B3514BB00EDA785 /* TeXSymbolParser.m in Sources */,
+				85A595C21B3514BB00EDA785 /* CharSymbol.m in Sources */,
+				85A595EC1B3514BB00EDA785 /* FramedBox.m in Sources */,
+				85A596711B3514BB00EDA785 /* VlineAtom.m in Sources */,
+				85A5962E1B3514BB00EDA785 /* Stroke.m in Sources */,
+				85A596511B3514BB00EDA785 /* ShadowBox.m in Sources */,
+				85A596091B3514BB00EDA785 /* MultlineAtom.m in Sources */,
+				85A596231B3514BB00EDA785 /* RoundRectangle2D.m in Sources */,
+				85A596251B3514BB00EDA785 /* BasicStroke.m in Sources */,
+				85A596271B3514BB00EDA785 /* Graphics2DInterface.m in Sources */,
+				85A5965A1B3514BB00EDA785 /* tcaronAtom.m in Sources */,
+				85A5963C1B3514BB00EDA785 /* ResourceLoaderFactory.m in Sources */,
+				85A596191B3514BB00EDA785 /* FontLoader.m in Sources */,
+				85A596061B3514BB00EDA785 /* MiddleAtom.m in Sources */,
+				85A596411B3514BB00EDA785 /* PredefMacros.m in Sources */,
+				85A595ED1B3514BB00EDA785 /* GeoGebraLogoAtom.m in Sources */,
+				85A595D61B3514BB00EDA785 /* InvalidAtomTypeException.m in Sources */,
+				85A596011B3514BB00EDA785 /* Macro.m in Sources */,
+				85A595D21B3514BB00EDA785 /* DelimiterMappingNotFoundException.m in Sources */,
+				85A596241B3514BB00EDA785 /* Geom.m in Sources */,
+				85A595C41B3514BB00EDA785 /* ColorUtil.m in Sources */,
+				85A5964A1B3514BB00EDA785 /* Row.m in Sources */,
+				85A595B51B3514BB00EDA785 /* BigOperatorAtom.m in Sources */,
+				85A5961D1B3514BB00EDA785 /* TextLayout.m in Sources */,
+				85A595D11B3514BB00EDA785 /* AlphabetRegistrationException.m in Sources */,
+				85A595DA1B3514BB00EDA785 /* InvalidSymbolTypeException.m in Sources */,
+				85A595D41B3514BB00EDA785 /* FontAlreadyLoadedException.m in Sources */,
+				85A595CB1B3514BB00EDA785 /* DoubleFramedAtom.m in Sources */,
+				85A595B01B3514BB00EDA785 /* AccentedAtom.m in Sources */,
+				85A596041B3514BB00EDA785 /* MatrixAtom.m in Sources */,
+				85A596301B3514BB00EDA785 /* Graphics.m in Sources */,
+				85A595C81B3514BB00EDA785 /* DefaultTeXFont.m in Sources */,
+				85A595BD1B3514BB00EDA785 /* Char.m in Sources */,
+				85A596461B3514BB00EDA785 /* ResizeAtom.m in Sources */,
+				85A595FF1B3514BB00EDA785 /* LaTeXAtom.m in Sources */,
+				85A595DD1B3514BB00EDA785 /* JMathTeXException.m in Sources */,
+				85A595B11B3514BB00EDA785 /* AlphabetRegistration.m in Sources */,
+				85A596201B3514BB00EDA785 /* Line2D.m in Sources */,
+				85A596291B3514BB00EDA785 /* HasForegroundColor.m in Sources */,
+				85A595F11B3514BB00EDA785 /* GlueSettingsParser.m in Sources */,
+				85A5962D1B3514BB00EDA785 /* RenderingHints.m in Sources */,
+				85A5965F1B3514BB00EDA785 /* TeXFormulaParser.m in Sources */,
+				85A595D91B3514BB00EDA785 /* InvalidMatrixException.m in Sources */,
+				85A5965D1B3514BB00EDA785 /* TeXFont.m in Sources */,
+				85A596591B3514BB00EDA785 /* SymbolAtom.m in Sources */,
+				85A5964B1B3514BB00EDA785 /* RowAtom.m in Sources */,
+				85A595E31B3514BB00EDA785 /* XMLResourceParseException.m in Sources */,
+				85A595CF1B3514BB00EDA785 /* ExternalConverterFactory.m in Sources */,
+				85A595F01B3514BB00EDA785 /* GlueBox.m in Sources */,
+				85A595DB1B3514BB00EDA785 /* InvalidTeXFormulaException.m in Sources */,
+				85A595FD1B3514BB00EDA785 /* JavaFontRenderingBox.m in Sources */,
+				85A595E61B3514BB00EDA785 /* FcscoreAtom.m in Sources */,
+				85A596641B3514BB00EDA785 /* TextCircledAtom.m in Sources */,
+				85A595FE1B3514BB00EDA785 /* LapedAtom.m in Sources */,
+				85A596331B3514BB00EDA785 /* Element.m in Sources */,
+				85A595BF1B3514BB00EDA785 /* CharAtom.m in Sources */,
+				85A596501B3514BB00EDA785 /* ShadowAtom.m in Sources */,
+				85A5960D1B3514BB00EDA785 /* OgonekAtom.m in Sources */,
+				85A595D81B3514BB00EDA785 /* InvalidDelimiterTypeException.m in Sources */,
 				85A591561B35101400EDA785 /* AppDelegate.m in Sources */,
+				85A5966F1B3514BB00EDA785 /* VdotsAtom.m in Sources */,
+				85A595B81B3514BB00EDA785 /* Box.m in Sources */,
+				85A595E81B3514BB00EDA785 /* FencedAtom.m in Sources */,
+				85A595D51B3514BB00EDA785 /* FormulaNotFoundException.m in Sources */,
+				85A595C01B3514BB00EDA785 /* CharBox.m in Sources */,
+				85A595F21B3514BB00EDA785 /* GraphicsAtom.m in Sources */,
+				85A595D71B3514BB00EDA785 /* InvalidDelimiterException.m in Sources */,
+				85A596401B3514BB00EDA785 /* PredefMacroInfo.m in Sources */,
+				85A5960C1B3514BB00EDA785 /* NthRoot.m in Sources */,
+				85A596611B3514BB00EDA785 /* TeXIcon.m in Sources */,
+				85A595F81B3514BB00EDA785 /* HorizontalRule.m in Sources */,
+				85A596121B3514BB00EDA785 /* OverUnderBox.m in Sources */,
+				85A595E71B3514BB00EDA785 /* FcscoreBox.m in Sources */,
+				85A5963D1B3514BB00EDA785 /* PredefinedCommands.m in Sources */,
 				85A591531B35101400EDA785 /* main.m in Sources */,
+				85A5961E1B3514BB00EDA785 /* FontAdapter.m in Sources */,
+				85A596741B3514BB00EDA785 /* XArrowAtom.m in Sources */,
+				85A596421B3514BB00EDA785 /* RaiseAtom.m in Sources */,
+				85A596101B3514BB00EDA785 /* OverBar.m in Sources */,
+				85A596071B3514BB00EDA785 /* MonoScaleAtom.m in Sources */,
+				85A595F71B3514BB00EDA785 /* HorizontalBox.m in Sources */,
+				85A596341B3514BB00EDA785 /* NamedNodeMap.m in Sources */,
+				85A596621B3514BB00EDA785 /* TeXParser.m in Sources */,
+				85A595F61B3514BB00EDA785 /* HlineAtom.m in Sources */,
+				85A596701B3514BB00EDA785 /* VerticalBox.m in Sources */,
+				85A5963E1B3514BB00EDA785 /* PredefinedTeXFormulaParser.m in Sources */,
+				85A596181B3514BB00EDA785 /* FontFactory.m in Sources */,
+				85A595E41B3514BB00EDA785 /* Extension.m in Sources */,
+				85A596261B3514BB00EDA785 /* Color.m in Sources */,
+				85A5963A1B3514BB00EDA785 /* Resource.m in Sources */,
+				85A595C71B3514BB00EDA785 /* DdotsAtom.m in Sources */,
+				85A596751B3514BB00EDA785 /* XLeftRightArrowFactory.m in Sources */,
+				85A595B41B3514BB00EDA785 /* BigDelimiterAtom.m in Sources */,
+				85A595BA1B3514BB00EDA785 /* BreakMarkAtom.m in Sources */,
+				85A596391B3514BB00EDA785 /* ParserAdapter.m in Sources */,
+				85A596221B3514BB00EDA785 /* Rectangle2D.m in Sources */,
+				85A5964D1B3514BB00EDA785 /* ScaleAtom.m in Sources */,
+				85A596451B3514BB00EDA785 /* RegexUtil.m in Sources */,
+				85A596431B3514BB00EDA785 /* ReflectAtom.m in Sources */,
+				85A5966E1B3514BB00EDA785 /* VCenteredAtom.m in Sources */,
+				85A5962F1B3514BB00EDA785 /* Transform.m in Sources */,
+				85A5960A1B3514BB00EDA785 /* NewCommandMacro.m in Sources */,
+				85A596131B3514BB00EDA785 /* OverUnderDelimiter.m in Sources */,
+				85A595BE1B3514BB00EDA785 /* Character.m in Sources */,
+				85A595F41B3514BB00EDA785 /* GreekRegistration.m in Sources */,
+				85A596671B3514BB00EDA785 /* TtAtom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +1637,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -298,10 +1665,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = "~/j2objc-0.9.7/lib";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ljre_emul";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "~/j2objc-0.9.7/include ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/**";
 			};
 			name = Debug;
 		};
@@ -312,7 +1682,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -334,9 +1704,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = "~/j2objc-0.9.7/lib";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ljre_emul";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "~/j2objc-0.9.7/include ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -345,9 +1718,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "JLaTeXMath-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "~/j2objc-0.9.7/lib";
+				OTHER_LDFLAGS = "-ljre_emul";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "~/j2objc-0.9.7/include ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/**";
 			};
 			name = Debug;
 		};
@@ -355,9 +1732,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "JLaTeXMath-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "~/j2objc-0.9.7/lib";
+				OTHER_LDFLAGS = "-ljre_emul";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "~/j2objc-0.9.7/include ${PROJECT_DIR}/JLaTeXMath-iOS/jlatexmath-share/**";
 			};
 			name = Release;
 		};
