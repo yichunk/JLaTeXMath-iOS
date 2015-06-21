@@ -19,4 +19,5 @@
 @property(retain) ColorI* mColor;
 @property(retain) BasicStrokeI* mStroke;
 -initWithContext:(CGContextRef)context;
+-(void)drawStringWithString:(NSString*)string withX:(int)x withY:(int)y;
 @end

@@ -4,6 +4,55 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>jlm_fcmripg.ttf</string>
+		<string>jlm_wnbx10.ttf</string>
+		<string>jlm_fcsropg.ttf</string>
+		<string>jlm_wnbxti10.ttf</string>
+		<string>jlm_fcmrpg.ttf</string>
+		<string>jlm_wnr10.ttf</string>
+		<string>jlm_fcsrpg.ttf</string>
+		<string>jlm_wnss10.ttf</string>
+		<string>jlm_fcmbipg.ttf</string>
+		<string>jlm_wnssbx10.ttf</string>
+		<string>jlm_fctrpg.ttf</string>
+		<string>jlm_wnssi10.ttf</string>
+		<string>jlm_fcsbpg.ttf</string>
+		<string>jlm_wnti10.ttf</string>
+		<string>jlm_fcmbpg.ttf</string>
+		<string>jlm_wntt10.ttf</string>
+		<string>jlm_cmex10.ttf</string>
+		<string>jlm_cmmi10.ttf</string>
+		<string>jlm_cmmib10.ttf</string>
+		<string>jlm_eufb10.ttf</string>
+		<string>jlm_eufm10.ttf</string>
+		<string>jlm_cmr10.ttf</string>
+		<string>jlm_jlmbi10.ttf</string>
+		<string>jlm_jlmbx10.ttf</string>
+		<string>jlm_jlmi10.ttf</string>
+		<string>jlm_jlmr10.ttf</string>
+		<string>jlm_jlmsb10.ttf</string>
+		<string>jlm_jlmsbi10.ttf</string>
+		<string>jlm_jlmsi10.ttf</string>
+		<string>jlm_jlmss10.ttf</string>
+		<string>jlm_jlmtt10.ttf</string>
+		<string>jlm_cmbx10.ttf</string>
+		<string>jlm_cmbxti10.ttf</string>
+		<string>jlm_cmss10.ttf</string>
+		<string>jlm_cmssbx10.ttf</string>
+		<string>jlm_cmssi10.ttf</string>
+		<string>jlm_cmti10.ttf</string>
+		<string>jlm_cmtt10.ttf</string>
+		<string>jlm_cmbsy10.ttf</string>
+		<string>jlm_cmsy10.ttf</string>
+		<string>jlm_msam10.ttf</string>
+		<string>jlm_msbm10.ttf</string>
+		<string>jlm_rsfs10.ttf</string>
+		<string>jlm_special.ttf</string>
+		<string>jlm_stmary10.ttf</string>
+		<string>jlm_dsrom10.ttf</string>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

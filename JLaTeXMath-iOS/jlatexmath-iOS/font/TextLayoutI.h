@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "TextLayout.h"
-
+#import "FontI.h"
 @interface TextLayoutI : NSObject<OrgScilabForgeJlatexmathPlatformFontTextLayout>
-
+@property(retain) NSString* mNSString;
+@property(retain) FontI* mFont;
+-(instancetype)initWithString:(NSString*)string withFont:(FontI*)font;
 @end

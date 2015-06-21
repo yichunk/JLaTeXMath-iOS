@@ -7,7 +7,20 @@
 //
 
 #import "TextLayoutI.h"
+#import "Graphics2DI.h"
 
 @implementation TextLayoutI
-
+@synthesize mFont = _mFont;
+@synthesize mNSString = _mNSString;
+-(instancetype)initWithString:(NSString *)string withFont:(FontI *)font
+{
+    _mFont = font;
+    _mNSString = string;
+    return self;
+}
+-(void)drawWithOrgScilabForgeJlatexmathPlatformGraphicsGraphics2DInterface:(id<OrgScilabForgeJlatexmathPlatformGraphicsGraphics2DInterface>)graphics withInt:(jint)x withInt:(jint)y
+{
+    Graphics2DI* g2d = (Graphics2DI*)graphics;
+    [g2d drawStringWithString:_mNSString withX:x withY:y];
+}
 @end

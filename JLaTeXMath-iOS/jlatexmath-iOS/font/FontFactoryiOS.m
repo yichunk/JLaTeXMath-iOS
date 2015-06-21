@@ -28,6 +28,6 @@
 }
 -(id<OrgScilabForgeJlatexmathPlatformFontTextLayout>)createTextLayoutWithNSString:(NSString *)string withOrgScilabForgeJlatexmathPlatformFontFont:(id<OrgScilabForgeJlatexmathPlatformFontFont>)font withOrgScilabForgeJlatexmathPlatformFontFontRenderContext:(id<OrgScilabForgeJlatexmathPlatformFontFontRenderContext>)fontRenderContext
 {
-    return [[TextLayoutI alloc] init];
+    return [[TextLayoutI alloc] initWithString:string withFont:font];
 }
 @end

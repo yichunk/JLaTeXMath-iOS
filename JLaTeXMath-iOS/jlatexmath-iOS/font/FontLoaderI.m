@@ -18,10 +18,11 @@
 }
 -(id<OrgScilabForgeJlatexmathPlatformFontFont>)loadFontWithId:(id)fontInt withNSString:(NSString *)name
 {
-    NSRange begin = [name rangeOfString:@"/" options:NSBackwardsSearch];
-    NSRange end = [name rangeOfString:@"." options:NSBackwardsSearch];
-    NSString* fontName = [name substringWithRange:NSMakeRange(begin.location+1, end.location)];
+    NSURL* url = [NSURL URLWithString:name];
+    NSArray* arry = [url pathComponents];
+    NSString* fontName = (NSString*)[arry objectAtIndex:[arry count]-1];
+    fontName = [fontName substringToIndex:[fontName length] - 4];
     NSLog(@"%@",fontName);
-    return [[FontI alloc] initWithName:fontName withStyle:1 withSize:40];
+    return [[FontI alloc] initWithName:fontName withStyle:0 withSize:1];
 }
 @end
