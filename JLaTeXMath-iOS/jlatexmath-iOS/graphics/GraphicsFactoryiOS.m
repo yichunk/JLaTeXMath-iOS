@@ -24,7 +24,7 @@
 
 -(id<OrgScilabForgeJlatexmathPlatformGraphicsImage>)createImageWithInt:(jint)width withInt:(jint)height withInt:(jint)type
 {
-    return [[ImageI alloc] init];
+    return [[ImageI alloc] initWithWidth:width withHeight:height];
 }
 
 -(id<OrgScilabForgeJlatexmathPlatformGraphicsImage>)getImageWithNSString:(NSString *)path

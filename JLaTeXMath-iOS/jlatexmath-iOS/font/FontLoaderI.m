@@ -22,7 +22,7 @@
     NSArray* arry = [url pathComponents];
     NSString* fontName = (NSString*)[arry objectAtIndex:[arry count]-1];
     fontName = [fontName substringToIndex:[fontName length] - 4];
-    NSLog(@"%@",fontName);
+    //NSLog(@"%@",fontName);
     return [[FontI alloc] initWithName:fontName withStyle:0 withSize:1];
 }
 @end

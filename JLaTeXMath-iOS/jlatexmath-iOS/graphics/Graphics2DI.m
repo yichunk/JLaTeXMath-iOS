@@ -77,46 +77,59 @@
 
 -(void)fillRectWithInt:(jint)x withInt:(jint)y withInt:(jint)width withInt:(jint)height
 {
+    CGContextSaveGState(_mCGContext);
     CGContextFillRect(_mCGContext, CGRectMake(x, y, width, height));
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)fillWithOrgScilabForgeJlatexmathPlatformGeomRectangle2D:(id<OrgScilabForgeJlatexmathPlatformGeomRectangle2D>)rectangle
 {
+    CGContextSaveGState(_mCGContext);
     CGContextFillRect(_mCGContext, [((Rectangle2DI*)rectangle) mRect]);
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)drawWithOrgScilabForgeJlatexmathPlatformGeomRectangle2D:(id<OrgScilabForgeJlatexmathPlatformGeomRectangle2D>)rectangle
 {
+    CGContextSaveGState(_mCGContext);
     CGContextStrokeRect(_mCGContext, [((Rectangle2DI*)rectangle) mRect]);
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)drawWithOrgScilabForgeJlatexmathPlatformGeomLine2D:(id<OrgScilabForgeJlatexmathPlatformGeomLine2D>)line
 {
+    CGContextSaveGState(_mCGContext);
     Line2DI* mLine = (Line2DI*)line;
     CGPoint points[] = {[mLine startPoint], [mLine endPoint]};
     CGContextAddLines(_mCGContext, points, 2);
     CGContextStrokePath(_mCGContext);
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)drawCharsWithCharArray:(IOSCharArray *)data withInt:(jint)offset withInt:(jint)length withInt:(jint)x withInt:(jint)y
 {
+    CGContextSaveGState(_mCGContext);
     NSString* string = [NSString stringWithOffset:offset length:length characters:data];
     [self drawStringWithString:string withX:x withY:y];
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)drawStringWithString:(NSString *)string withX:(int)x withY:(int)y
 {
+    CGContextSaveGState(_mCGContext);
+    //NSLog(@"String:%@ CTFontName:%@",string,CTFontCopyFullName([_mFont mCTFont]));
     NSDictionary *attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     (id)[_mFont mCTFont], (id)kCTFontAttributeName,
-                                    [_mColor impl], (id)kCTForegroundColorAttributeName,
-                                    nil];
+                                    [_mColor impl], (id)kCTForegroundColorAttributeName,nil];
+    //CTFontDescriptorRef des =  CTFontDescriptorCreateWithAttributes((CFDictionaryRef)attributesDict);
+
     NSAttributedString *stringToDraw = [[NSAttributedString alloc] initWithString:string
                                                                        attributes:attributesDict];
     CTLineRef line = CTLineCreateWithAttributedString((CFAttributedStringRef)stringToDraw);
     CGContextSetTextPosition(_mCGContext, x, y);
     CTLineDraw(line, _mCGContext);
     CFRelease(line);
-    [stringToDraw release];
+    CGContextRestoreGState(_mCGContext);
 }
 -(void)drawArcWithInt:(jint)x withInt:(jint)y withInt:(jint)width withInt:(jint)height withInt:(jint)startAngle withInt:(jint)arcAngle
 {
@@ -141,22 +154,24 @@
 -(void)rotateWithDouble:(jdouble)theta withDouble:(jdouble)x withDouble:(jdouble)y
 {
     [self translateWithDouble:x withDouble:y];
-    CGContextRotateCTM(_mCGContext, theta/3.14150*180);
+    CGContextRotateCTM(_mCGContext, theta);
     [self translateWithDouble:-x withDouble:-y];
 }
 
 -(void)rotateWithDouble:(jdouble)theta
 {
-    CGContextRotateCTM(_mCGContext, theta/3.14150*180);
+    CGContextRotateCTM(_mCGContext, theta);
 }
 
 -(void)drawImageWithOrgScilabForgeJlatexmathPlatformGraphicsImage:(id<OrgScilabForgeJlatexmathPlatformGraphicsImage>)image withInt:(jint)x withInt:(jint)y
 {
+    CGContextSaveGState(_mCGContext);
     ImageI* imageI = (ImageI*) image;
     CGImageRef cgimage = [imageI getImage];
     double width = CGImageGetWidth(cgimage);
     double height = CGImageGetHeight(cgimage);
     CGContextDrawImage(_mCGContext, CGRectMake(x, y, width, height), cgimage);
+    CGContextRestoreGState(_mCGContext);
 }
 
 -(void)drawImageWithOrgScilabForgeJlatexmathPlatformGraphicsImage:(id<OrgScilabForgeJlatexmathPlatformGraphicsImage>)image withOrgScilabForgeJlatexmathPlatformGraphicsTransform:(id<OrgScilabForgeJlatexmathPlatformGraphicsTransform>)transform
@@ -188,6 +203,7 @@
 {
     CGContextRestoreGState(_mCGContext);
 }
+
 
 
 

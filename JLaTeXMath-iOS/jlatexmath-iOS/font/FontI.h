@@ -12,6 +12,7 @@
 @interface FontI : NSObject <OrgScilabForgeJlatexmathPlatformFontFont>
 {
     int size;
+    int style;
 }
 -(id)initWithName:(NSString*)name withStyle:(int)style withSize:(int)s;
 @property CTFontRef mCTFont;

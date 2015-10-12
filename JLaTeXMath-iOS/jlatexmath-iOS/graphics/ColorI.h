@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "Color.h"
+//#import "GColor.h"
 #import <CoreGraphics/CoreGraphics.h>
 @interface ColorI : NSObject <OrgScilabForgeJlatexmathPlatformGraphicsColor>
 @property CGColorRef impl;
 -initWithR:(int)r withG:(int)g withB:(int)b;
+//-initWithGColor:(OrgGeogebraCommonAwtGColor*)gcolor;
 @end

@@ -10,9 +10,11 @@
 
 @implementation FontI
 @synthesize mCTFont = _mCTFont;
--(id)initWithName:(NSString *)name withStyle:(int)style withSize:(int)s
+-(id)initWithName:(NSString *)name withStyle:(int)sty withSize:(int)s
 {
     size = s;
+    style = sty;
+    //NSLog(@"name :%@",name);
     _mCTFont = CTFontCreateWithName((CFStringRef)name, size, nil);
     return self;
 }
