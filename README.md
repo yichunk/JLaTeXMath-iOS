@@ -7,7 +7,7 @@ This project is a fork of original JLaTeXMath (http://forge.scilab.org/index.php
 
 First, download j2Objc from http://j2objc.org/. Drag this project into your main app project. </br>
 
-###In Building Setting, 
+###In Build Setting, 
 Add "${your j2objc source folder path}/include" and to "User Header Search Path" </br>
 Add "${PROJECT_DIR}/JLaTeXMath-iOS" to "User Header Search Path", and choose recursive. </br>
 Add "${your j2objc source folder path}/lib" to "library search path"</br>
